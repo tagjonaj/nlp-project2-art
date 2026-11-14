@@ -1,0 +1,16 @@
+# training outputs that are large or regenerable
+runs/*/checkpoints/
+runs/*/wandb/
+wandb/
+lightning_logs/
+*.ckpt
+# local data export (the dataset is loaded from the Hugging Face hub)
+data/
+# Python / Jupyter
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+.venv/
