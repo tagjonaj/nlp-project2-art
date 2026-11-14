@@ -12,6 +12,8 @@ hypotheses *h₁*, *h₂* (ART dataset, Bhagavatula et al., 2020; course version
 
 Models 1 and 2 are finetuned on ART, the LLM is prompt engineered.
 
+`EXPECTATIONS.md` contains the expected accuracies, written on 2026-11-15 before the first experiment.
+
 ## Tools and sources (declaration)
 
 * Libraries: PyTorch, Lightning, Weights & Biases, Hugging Face `transformers` and `datasets`.
