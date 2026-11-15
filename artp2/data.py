@@ -6,7 +6,7 @@ from datasets import DatasetDict, Value, load_dataset
 
 DATASET_ID = "amarfurt/art-nlp-hs26"
 TEXT_FIELDS = ("observation_1", "observation_2", "hypothesis_1", "hypothesis_2")
-SEQ_FORMATS = ("o1_h_o2", "o1_o2_h")
+SEQ_FORMATS = ("o1_h_o2", "o1_o2_h", "h_only")
 
 
 def load_art() -> DatasetDict:
@@ -24,11 +24,13 @@ def load_art() -> DatasetDict:
     return ds.map(lambda example: {"label": example["label"] - 1}, desc="labels 1/2 -> 0/1")
 
 
-def text_pairs(example: dict, seq_format: str = "o1_h_o2") -> list[tuple[str, str]]:
+def text_pairs(example: dict, seq_format: str = "o1_h_o2") -> list[tuple[str, str | None]]:
     """The two text segments of the model input, once per hypothesis.
 
     * ``o1_h_o2``: (o1 + h, o2) - narrative order, the hypothesis stands between the observations
     * ``o1_o2_h``: (o1 + o2, h) - both observations as context, then the hypothesis
+    * ``h_only``: (h, None) - the hypothesis alone; a control that shows how much can be decided
+      without the observations
 
     The tokenizer joins the two segments with its special tokens.
     """
@@ -39,6 +41,8 @@ def text_pairs(example: dict, seq_format: str = "o1_h_o2") -> list[tuple[str, st
             pairs.append((f"{o1} {hypothesis}", o2))
         elif seq_format == "o1_o2_h":
             pairs.append((f"{o1} {o2}", hypothesis))
+        elif seq_format == "h_only":
+            pairs.append((hypothesis, None))
         else:
             raise ValueError(f"unknown seq_format {seq_format!r}")
     return pairs
@@ -53,7 +57,8 @@ def encode_dataset(ds: DatasetDict, tokenizer, seq_format: str = "o1_h_o2", max_
 
     def encode(example: dict) -> dict:
         firsts, seconds = zip(*text_pairs(example, seq_format))
-        encoded = tokenizer(list(firsts), list(seconds), truncation=True, max_length=max_length)
+        seconds = None if seq_format == "h_only" else list(seconds)
+        encoded = tokenizer(list(firsts), seconds, truncation=True, max_length=max_length)
         return {"input_ids": encoded["input_ids"]}
 
     return ds.map(encode, desc=f"tokenize ({seq_format})")

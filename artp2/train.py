@@ -40,8 +40,9 @@ class Config:
     pooling: str = "first"  # first (hidden state of <s>) | mean
     dropout: float = 0.1  # dropout in the classifier
     # input
-    seq_format: str = "o1_h_o2"  # o1_h_o2 | o1_o2_h
+    seq_format: str = "o1_h_o2"  # o1_h_o2 | o1_o2_h | h_only
     max_length: int = 128  # truncation limit in tokens (the longest sequence has 65)
+    train_size: int = 0  # train on a random subset of N training examples (drawn with the seed); 0 = all
     # training
     lr: float = 2e-5
     classifier_lr: float = 0.0  # 0 = same as lr
@@ -82,6 +83,8 @@ def default_group(cfg: Config) -> str:
         parts.append(f"bs{cfg.batch_size}")
     if cfg.max_epochs != default.max_epochs:
         parts.append(f"ep{cfg.max_epochs}")
+    if cfg.train_size:
+        parts.append(f"n{cfg.train_size}")
     if cfg.subset:
         parts.append(f"sub{cfg.subset}")
     return "-".join(parts)
@@ -143,10 +146,13 @@ def run(cfg: Config) -> dict:
     if cfg.subset:
         ds = ds.filter(lambda example, index: index < cfg.subset, with_indices=True)
     encoded = encode_dataset(ds, tokenizer, cfg.seq_format, cfg.max_length)
+    splits = {split: encoded[split] for split in ("train", "validation", "test")}
+    if cfg.train_size:
+        splits["train"] = splits["train"].shuffle(seed=cfg.seed).select(range(cfg.train_size))
     collate = Collator(tokenizer.pad_token_id)
-    train_loader = DataLoader(encoded["train"], batch_size=cfg.batch_size, shuffle=True, collate_fn=collate)
-    eval_loaders = {split: DataLoader(encoded[split], batch_size=2 * cfg.batch_size, collate_fn=collate)
-                    for split in ("train", "validation", "test")}
+    train_loader = DataLoader(splits["train"], batch_size=cfg.batch_size, shuffle=True, collate_fn=collate)
+    eval_loaders = {split: DataLoader(splits[split], batch_size=2 * cfg.batch_size, collate_fn=collate)
+                    for split in splits}
 
     # model
     model = ARTModel(cfg.checkpoint, cfg.pretrained, cfg.pooling, cfg.dropout)
@@ -157,7 +163,7 @@ def run(cfg: Config) -> dict:
     logger = WandbLogger(
         project=cfg.wandb_project, name=run_name, group=group, tags=[tag for tag in cfg.tags.split(",") if tag],
         save_dir=str(run_dir), mode=cfg.wandb_mode, log_model=False,
-        config={**asdict(cfg), "n_params": n_params["total"], "n_train": len(encoded["train"])},
+        config={**asdict(cfg), "n_params": n_params["total"], "n_train": len(splits["train"])},
     )
     csv_logger = CSVLogger(save_dir=str(run_dir), name="metrics", version=0)
     checkpoint = ModelCheckpoint(
@@ -189,7 +195,7 @@ def run(cfg: Config) -> dict:
         "train_seconds": train_seconds,
     }
     for index, split in enumerate(("validation", "test", "train")):
-        labels = encoded[split]["label"]
+        labels = splits[split]["label"]
         metrics, probs = evaluate(trainer, lit, eval_loaders[split], list(labels), best_path if index == 0 else None)
         results[split] = metrics
         if split != "train":

@@ -15,7 +15,7 @@ from datasets import Dataset
 from transformers import AutoTokenizer
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from artp2.data import SEQ_FORMATS, Collator, encode_dataset, load_art, text_pairs  # noqa: E402
+from artp2.data import Collator, encode_dataset, load_art, text_pairs  # noqa: E402
 from artp2.lit import lr_factor  # noqa: E402
 from artp2.models import POOLINGS, ARTModel  # noqa: E402
 from artp2.train import Config, default_group  # noqa: E402
@@ -62,7 +62,8 @@ def test_split_sizes_and_labels(ds):
 def test_text_pairs():
     assert text_pairs(EXAMPLE, "o1_h_o2")[0] == ("Ann lost her keys. She found them at once.", "She was late for work.")
     assert text_pairs(EXAMPLE, "o1_o2_h")[0] == ("Ann lost her keys. She was late for work.", "She found them at once.")
-    for seq_format in SEQ_FORMATS:
+    assert text_pairs(EXAMPLE, "h_only") == [("She found them at once.", None), ("She searched the whole flat.", None)]
+    for seq_format in ("o1_h_o2", "o1_o2_h"):
         texts = [" ".join(pair) for pair in text_pairs(EXAMPLE, seq_format)]
         assert len(texts) == 2
         assert EXAMPLE["hypothesis_1"] in texts[0] and EXAMPLE["hypothesis_2"] not in texts[0]
@@ -78,6 +79,12 @@ def test_encoding_adds_special_tokens_but_no_padding(tokenizer):
         assert ids[0] == tokenizer.bos_token_id and ids[-1] == tokenizer.eos_token_id
         assert tokenizer.pad_token_id not in ids
         assert tokenizer.decode(ids).count("</s></s>") == 1  # exactly one boundary between the two segments
+
+
+def test_hypothesis_only_encoding_has_a_single_segment(tokenizer):
+    rows = list(encode_dataset(Dataset.from_list([EXAMPLE]), tokenizer, "h_only"))
+    assert [tokenizer.decode(ids) for ids in rows[0]["input_ids"]] == [
+        "<s>She found them at once.</s>", "<s>She searched the whole flat.</s>"]
 
 
 def test_collator_pads_to_the_longest_sequence_and_masks_the_padding(tokenizer):
@@ -155,3 +162,4 @@ def test_run_names_are_short_and_name_what_differs_from_the_default():
     assert default_group(Config()) == "pre-lr2e-05"
     assert default_group(Config(pretrained=False, lr=1e-4, max_epochs=30)) == "rand-lr0.0001-ep30"
     assert default_group(Config(seq_format="o1_o2_h", pooling="mean")) == "pre-lr2e-05-o1o2h-mean"
+    assert default_group(Config(seq_format="h_only", train_size=1000)) == "pre-lr2e-05-honly-n1000"
