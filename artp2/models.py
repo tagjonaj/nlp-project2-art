@@ -26,6 +26,9 @@ class ARTModel(nn.Module):
             raise ValueError(f"unknown pooling {pooling!r}")
         if pretrained:
             self.encoder = AutoModel.from_pretrained(checkpoint, add_pooling_layer=False)
+            # from_pretrained returns the model in evaluation mode and Lightning keeps that mode:
+            # without this line model 2 would be trained without dropout, model 1 with dropout
+            self.encoder.train()
         else:
             config = AutoConfig.from_pretrained(checkpoint)
             self.encoder = AutoModel.from_config(config, add_pooling_layer=False)
