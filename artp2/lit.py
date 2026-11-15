@@ -15,7 +15,7 @@ class ARTClassifier(L.LightningModule):
     * Optimizer: AdamW on all parameters. The classifier may get its own learning rate, because it
       is randomly initialized also in the pretrained model.
     * Schedule: linear warmup from lr / 100 to lr during the first ``warmup_ratio`` of all steps,
-      then linear decay to lr / 10 000 (one cycle, stepped after every batch).
+      then linear decay to lr / 10 000 (stepped after every batch).
     * Logged once per epoch: ``train/loss``, ``train/acc``, ``val/loss``, ``val/acc``.
     """
 
@@ -55,14 +55,15 @@ class ARTClassifier(L.LightningModule):
             {"params": self.model.classifier.parameters(), "lr": self.classifier_lr},
         ]
         optimizer = torch.optim.AdamW(groups, weight_decay=self.weight_decay)
-        scheduler = torch.optim.lr_scheduler.OneCycleLR(
-            optimizer,
-            max_lr=[self.lr, self.classifier_lr],
-            total_steps=self.trainer.estimated_stepping_batches,
-            pct_start=self.warmup_ratio,
-            anneal_strategy="linear",
-            div_factor=100,  # start at lr / 100
-            final_div_factor=100,  # end at start / 100
-            cycle_momentum=False,
-        )
+        total_steps = self.trainer.estimated_stepping_batches
+        warmup_steps = max(1, int(self.warmup_ratio * total_steps))
+        decay_steps = max(1, total_steps - warmup_steps)
+        start, end = 1e-2, 1e-4  # factors on the learning rate at the first and after the last step
+
+        def factor(step: int) -> float:
+            if step < warmup_steps:
+                return start + (1 - start) * step / warmup_steps
+            return max(end, 1 - (1 - end) * (step - warmup_steps) / decay_steps)
+
+        scheduler = torch.optim.lr_scheduler.LambdaLR(optimizer, factor)
         return {"optimizer": optimizer, "lr_scheduler": {"scheduler": scheduler, "interval": "step"}}
