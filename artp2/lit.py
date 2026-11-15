@@ -8,6 +8,16 @@ import torch.nn.functional as F
 from .models import ARTModel
 
 
+def lr_factor(step: int, total_steps: int, warmup_ratio: float) -> float:
+    """Factor on the learning rate at ``step``: linear warmup from 1/100 to 1, then linear decay to 1/10 000."""
+    warmup_steps = max(1, int(warmup_ratio * total_steps))
+    decay_steps = max(1, total_steps - warmup_steps)
+    start, end = 1e-2, 1e-4
+    if step < warmup_steps:
+        return start + (1 - start) * step / warmup_steps
+    return max(end, 1 - (1 - end) * (step - warmup_steps) / decay_steps)
+
+
 class ARTClassifier(L.LightningModule):
     """Trains an ``ARTModel`` that maps a batch to [B, 2] logits, one per hypothesis.
 
@@ -56,14 +66,6 @@ class ARTClassifier(L.LightningModule):
         ]
         optimizer = torch.optim.AdamW(groups, weight_decay=self.weight_decay)
         total_steps = self.trainer.estimated_stepping_batches
-        warmup_steps = max(1, int(self.warmup_ratio * total_steps))
-        decay_steps = max(1, total_steps - warmup_steps)
-        start, end = 1e-2, 1e-4  # factors on the learning rate at the first and after the last step
-
-        def factor(step: int) -> float:
-            if step < warmup_steps:
-                return start + (1 - start) * step / warmup_steps
-            return max(end, 1 - (1 - end) * (step - warmup_steps) / decay_steps)
-
-        scheduler = torch.optim.lr_scheduler.LambdaLR(optimizer, factor)
+        scheduler = torch.optim.lr_scheduler.LambdaLR(
+            optimizer, lambda step: lr_factor(step, total_steps, self.warmup_ratio))
         return {"optimizer": optimizer, "lr_scheduler": {"scheduler": scheduler, "interval": "step"}}
