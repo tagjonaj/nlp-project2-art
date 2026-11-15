@@ -1,0 +1,9 @@
+run,group,pretrained,lr,classifier_lr,seq_format,pooling,train_size,batch_size,max_epochs,patience,seed,tags,best_epoch,epochs_trained,train_acc,train_loss,val_acc,val_loss,test_acc,test_loss,train_seconds
+pre-lr1e-05-s42,pre-lr1e-05,True,1e-05,0.0,o1_h_o2,first,0,32,5,2,42,phase1,4,5,0.985,0.0545,0.902,0.3679,0.6743,1.2896,743
+pre-lr2e-05-s42,pre-lr2e-05,True,2e-05,0.0,o1_h_o2,first,0,32,5,2,42,pilot,1,4,0.9742,0.0859,0.889,0.2979,0.6521,1.0185,602
+pre-lr3e-05-s42,pre-lr3e-05,True,3e-05,0.0,o1_h_o2,first,0,32,5,2,42,phase1,3,5,0.9976,0.0118,0.902,0.4225,0.6645,1.7566,743
+pre-lr5e-05-s42,pre-lr5e-05,True,5e-05,0.0,o1_h_o2,first,0,32,5,2,42,phase1,2,5,0.9955,0.0211,0.895,0.4169,0.6717,1.6208,742
+rand-lr0.0001-ep30-s42,rand-lr0.0001-ep30,False,0.0001,0.0,o1_h_o2,first,0,32,30,5,42,pilot,0,6,0.6289,0.6918,0.6,0.6921,0.5202,0.6931,887
+rand-lr1e-05-ep30-s42,rand-lr1e-05-ep30,False,1e-05,0.0,o1_h_o2,first,0,32,30,5,42,phase1,5,11,0.7898,0.4693,0.67,0.6292,0.5379,0.9364,1619
+rand-lr2e-05-ep30-s42,rand-lr2e-05-ep30,False,2e-05,0.0,o1_h_o2,first,0,32,30,5,42,phase1,3,9,0.7833,0.4851,0.674,0.6247,0.5424,0.9426,1327
+rand-lr5e-05-ep30-s42,rand-lr5e-05-ep30,False,5e-05,0.0,o1_h_o2,first,0,32,30,5,42,phase1,2,8,0.7832,0.6221,0.664,0.6561,0.532,0.6914,1182
