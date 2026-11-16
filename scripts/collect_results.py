@@ -45,7 +45,7 @@ for results_file in sorted((ROOT / "runs").glob("*/results.json")):
 
 (ROOT / "results").mkdir(exist_ok=True)
 with open(ROOT / "results" / "summary.csv", "w", newline="") as file:
-    writer = csv.DictWriter(file, fieldnames=list(rows[0]))
+    writer = csv.DictWriter(file, fieldnames=list(rows[0]), lineterminator="\n")
     writer.writeheader()
     writer.writerows(rows)
 
@@ -67,7 +67,7 @@ for group, members in groups.items():
 
 if llm_rows:
     with open(ROOT / "results" / "summary_llm.csv", "w", newline="") as file:
-        writer = csv.DictWriter(file, fieldnames=list(llm_rows[0]))
+        writer = csv.DictWriter(file, fieldnames=list(llm_rows[0]), lineterminator="\n")
         writer.writeheader()
         writer.writerows(llm_rows)
     print(f"\n{len(llm_rows)} LLM runs -> results/summary_llm.csv\n")

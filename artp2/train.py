@@ -123,7 +123,7 @@ def evaluate(trainer: L.Trainer, lit: ARTClassifier, loader: DataLoader, labels:
 def save_predictions(path: Path, labels: list[int], probs: torch.Tensor) -> None:
     """One row per example in the order of the split: label, both probabilities, prediction."""
     with open(path, "w", newline="") as file:
-        writer = csv.writer(file)
+        writer = csv.writer(file, lineterminator="\n")
         writer.writerow(["index", "label", "p_h1", "p_h2", "pred", "correct"])
         for index, (label, (p_h1, p_h2)) in enumerate(zip(labels, probs.tolist())):
             pred = int(p_h2 > p_h1)

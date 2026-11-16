@@ -27,13 +27,13 @@ EXAMPLE = {
 class FakeClient:
     """Always answers with the same text and counts the requests."""
 
-    def __init__(self, text: str) -> None:
-        self.text, self.calls = text, 0
+    def __init__(self, text: str, finish: str = "stop") -> None:
+        self.text, self.finish, self.calls = text, finish, 0
 
     def chat_completion(self, messages, **kwargs):
         self.calls += 1
         message = SimpleNamespace(content=self.text)
-        return SimpleNamespace(choices=[SimpleNamespace(message=message)],
+        return SimpleNamespace(choices=[SimpleNamespace(message=message, finish_reason=self.finish)],
                                usage=SimpleNamespace(prompt_tokens=100, completion_tokens=1))
 
 
@@ -131,3 +131,11 @@ def test_wrong_model_or_provider_stops_at_the_first_request(tmp_path):
     with pytest.raises(ValueError):
         run(Config(limit=20, wandb_mode="disabled", output_dir=str(tmp_path)), client)
     assert client.calls == 1
+
+
+def test_step_by_step_answer_that_hits_the_token_limit_is_invalid(tmp_path):
+    text = "Middle 1 fits the beginning, but then the ending"  # contains a number, but no final answer
+    results = run(Config(limit=5, prompt="cot", wandb_mode="disabled", output_dir=str(tmp_path)), FakeClient(text, finish="length"))
+    assert results["validation"]["invalid"] == 5 and results["validation"]["cut_off"] == 5 and results["validation"]["acc"] == 0
+    results = run(Config(limit=5, prompt="cot", wandb_mode="disabled", output_dir=str(tmp_path), run_name="complete"), FakeClient(text + ".\nAnswer: 2"))
+    assert results["validation"]["invalid"] == 0 and results["validation"]["cut_off"] == 0

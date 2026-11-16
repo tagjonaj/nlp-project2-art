@@ -158,8 +158,9 @@ def ask(client, cfg: Config, messages: list[dict]) -> dict:
         try:
             output = client.chat_completion(messages=messages, model=cfg.model, max_tokens=cfg.max_tokens,
                                             temperature=cfg.temperature, **options)
-            usage = output.usage
-            return {"text": output.choices[0].message.content or "",
+            usage, choice = output.usage, output.choices[0]
+            return {"text": choice.message.content or "",
+                    "finish": getattr(choice, "finish_reason", None) or "",  # "length" = cut off by max_tokens
                     "prompt_tokens": getattr(usage, "prompt_tokens", 0) or 0,
                     "completion_tokens": getattr(usage, "completion_tokens", 0) or 0}
         except (ValueError, TypeError):  # wrong model, provider or argument: a retry does not help
@@ -233,13 +234,16 @@ def run(cfg: Config, client=None) -> dict:
         responses = answer_split(client, cfg, split, ds[split], indices, shots, run_dir / f"responses_{split}.jsonl")
         labels = ds[split]["label"]
         confusion = [[0, 0], [0, 0]]  # rows = true label, columns = prediction (valid answers only)
-        correct = invalid = 0
+        correct = invalid = cut_off = 0
         with open(run_dir / f"predictions_{split}.csv", "w", newline="") as file:
-            writer = csv.writer(file)
+            writer = csv.writer(file, lineterminator="\n")
             writer.writerow(["index", "label", "pred", "correct", "answer"])
             for index in indices:
                 label, text = labels[index], responses[index]["text"]
                 pred = parse_answer(text, cfg.prompt, cfg.swap)
+                if cfg.prompt == "cot" and responses[index].get("finish") == "length":
+                    pred = None  # the reasoning hit the token limit: a number in it is not the final answer
+                    cut_off += 1
                 if pred is None:
                     invalid += 1
                 else:
@@ -249,7 +253,8 @@ def run(cfg: Config, client=None) -> dict:
         results[split] = {
             "n": len(indices),
             "acc": correct / len(indices),  # an answer without a usable number counts as wrong
-            "invalid": invalid,
+            "invalid": invalid,  # includes the answers that were cut off
+            "cut_off": cut_off,
             "confusion": confusion,
             "prompt_tokens": sum(responses[index]["prompt_tokens"] for index in indices),
             "completion_tokens": sum(responses[index]["completion_tokens"] for index in indices),
