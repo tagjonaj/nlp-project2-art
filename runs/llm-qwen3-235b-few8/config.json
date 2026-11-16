@@ -1,0 +1,20 @@
+{
+  "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+  "provider": "deepinfra",
+  "prompt": "few",
+  "shots": 8,
+  "swap": false,
+  "max_tokens": 8,
+  "reasoning_effort": "",
+  "temperature": 0.0,
+  "splits": "validation",
+  "limit": 0,
+  "train_limit": 1000,
+  "seed": 42,
+  "workers": 8,
+  "wandb_project": "nlp-project2-art",
+  "wandb_mode": "online",
+  "run_name": "llm-qwen3-235b-few8",
+  "tags": "llm,prompts",
+  "output_dir": "runs"
+}

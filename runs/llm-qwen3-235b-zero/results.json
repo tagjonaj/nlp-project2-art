@@ -1,0 +1,24 @@
+{
+  "run_name": "llm-qwen3-235b-zero",
+  "group": "llm-qwen3-235b-zero",
+  "shot_indices": [],
+  "validation": {
+    "n": 1000,
+    "acc": 0.953,
+    "invalid": 0,
+    "cut_off": 0,
+    "confusion": [
+      [
+        480,
+        28
+      ],
+      [
+        19,
+        473
+      ]
+    ],
+    "prompt_tokens": 107812,
+    "completion_tokens": 2000
+  },
+  "seconds": 58.24446725845337
+}

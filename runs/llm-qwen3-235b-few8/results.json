@@ -1,0 +1,33 @@
+{
+  "run_name": "llm-qwen3-235b-few8",
+  "group": "llm-qwen3-235b-few8",
+  "shot_indices": [
+    363,
+    6541,
+    1219,
+    3521,
+    6413,
+    8874,
+    15482,
+    6949
+  ],
+  "validation": {
+    "n": 1000,
+    "acc": 0.961,
+    "invalid": 2,
+    "cut_off": 0,
+    "confusion": [
+      [
+        484,
+        22
+      ],
+      [
+        15,
+        477
+      ]
+    ],
+    "prompt_tokens": 739812,
+    "completion_tokens": 2012
+  },
+  "seconds": 50.12291622161865
+}

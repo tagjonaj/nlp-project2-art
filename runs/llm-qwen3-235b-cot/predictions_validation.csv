@@ -1,0 +1,2986 @@
+index,label,pred,correct,answer
+0,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+1,0,0,1," outcome than a negative one.
+
+Answer: 1"
+2,1,1,1,"riate cause for getting sick.
+
+Answer: 2"
+3,0,0,1,"m anthropomorphizing the toy.
+
+Answer: 1"
+4,1,1,1,"with it) to happen logically.
+
+Answer: 2"
+5,1,1,1,"rent and plausible narrative.
+
+Answer: 2"
+6,0,0,1,"hen it's the narrator's turn.
+
+Answer: 1"
+7,1,1,1,"xt of a kindergarten setting.
+
+Answer: 2"
+8,1,1,1,"tainty to a positive outcome.
+
+Answer: 2"
+9,0,0,1,"pes, while Middle 2 does not.
+
+Answer: 1"
+10,1,1,1," and plausible narrative arc.
+
+Answer: 2"
+11,0,0,1,"he thud to a calm resolution.
+
+Answer: 1"
+12,0,0,1,"rejection of the certificate.
+
+Answer: 1"
+13,1,1,1,"while Middle 2 is consistent.
+
+Answer: 2"
+14,0,0,1,"up happy about writing a lot.
+
+Answer: 1"
+15,1,1,1,"e change in driving behavior.
+
+Answer: 2"
+16,1,1,1,"tickets and wishing for more.
+
+Answer: 2"
+17,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+18,0,0,1,"ects logically to the ending.
+
+Answer: 1"
+19,1,1,1,"eads logically to the ending.
+
+Answer: 2"
+20,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+21,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+22,0,0,1,"shaken — ""look like a ghost.""
+
+Answer: 1"
+23,1,1,1," same happening to a mansion.
+
+Answer: 2"
+24,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+25,0,0,1,"plausible sequence of events.
+
+Answer: 1"
+26,0,0,1,"eginning to the happy ending.
+
+Answer: 1"
+27,0,0,1,"e world is beautiful outside.
+
+Answer: 1"
+28,0,0,1," plausible causal connection.
+
+Answer: 1"
+29,0,0,1," the beginning to the ending.
+
+Answer: 1"
+30,0,0,1,"dle 2 contradicts the ending.
+
+Answer: 1"
+31,0,0,1,"ent with the positive ending.
+
+Answer: 1"
+32,0,0,1,"nd she was thankful for that.
+
+Answer: 1"
+33,1,1,1,"and contextually appropriate.
+
+Answer: 2"
+34,1,1,1,"tionally coherent transition.
+
+Answer: 2"
+35,0,1,0," faced the supernatural fear.
+
+Answer: 2"
+36,0,0,1,"tching to the postal service.
+
+Answer: 1"
+37,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+38,1,1,1,"Jack's action and the ticket.
+
+Answer: 2"
+39,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+40,0,0,1,"back pain and its resolution.
+
+Answer: 1"
+41,0,0,1," lead to disciplinary action.
+
+Answer: 1"
+42,1,1,1,"he sky to appreciating wings.
+
+Answer: 2"
+43,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+44,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+45,1,1,1,"r Jake becoming more careful.
+
+Answer: 2"
+46,0,0,1,") that attracted an audience.
+
+Answer: 1"
+47,1,1,1,"ional reaction in the ending.
+
+Answer: 2"
+48,1,1,1,"t explanation for the ending.
+
+Answer: 2"
+49,1,0,0,"tive than a vague compliment.
+
+Answer: 1"
+50,1,1,1," 2 fits the narrative better.
+
+Answer: 2"
+51,1,1,1,"relaxation during the flight.
+
+Answer: 2"
+52,1,1,1,"riends) → taken to the party.
+
+Answer: 2"
+53,0,0,1,"lead logically to the ending.
+
+Answer: 1"
+54,0,0,1,"ome, while Middle 2 does not.
+
+Answer: 1"
+55,0,0,1,"eads naturally to the ending.
+
+Answer: 1"
+56,0,0,1,"tion described in the ending.
+
+Answer: 1"
+57,0,0,1,"he implication of the ending.
+
+Answer: 1"
+58,0,0,1,"an article on the front page.
+
+Answer: 1"
+59,1,1,1,"ausible cause for the ending.
+
+Answer: 2"
+60,1,1,1," irritation the next morning.
+
+Answer: 2"
+61,0,0,1,"e and getting great exercise.
+
+Answer: 1"
+62,0,0,1," the formation of friendship.
+
+Answer: 1"
+63,1,1,1," of Jane's riding experience.
+
+Answer: 2"
+64,0,0,1,"is confusing and implausible.
+
+Answer: 1"
+65,1,1,1,"nd ending up in an ambulance.
+
+Answer: 2"
+66,1,1,1,"rprise implied in the ending.
+
+Answer: 2"
+67,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+68,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+69,0,0,1,"nding, while Middle 2 is not.
+
+Answer: 1"
+70,0,0,1,"he artist after the concert).
+
+Answer: 1"
+71,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+72,1,1,1,"ing that dream with his team.
+
+Answer: 2"
+73,1,1,1,"come described in the ending.
+
+Answer: 2"
+74,0,0,1,"come described in the ending.
+
+Answer: 1"
+75,0,0,1,"the players are hard working.
+
+Answer: 1"
+76,1,1,1,"that explains Jay's new fear.
+
+Answer: 2"
+77,1,1,1,"inty → positive reconnection.
+
+Answer: 2"
+78,1,1,1,"y out of pride and ownership.
+
+Answer: 2"
+79,0,0,1,"ins how the homework got wet.
+
+Answer: 1"
+80,0,0,1,"adictory or at least unusual.
+
+Answer: 1"
+81,0,0,1,"pair mentioned in the ending.
+
+Answer: 1"
+82,1,1,1,"coherent and plausible story.
+
+Answer: 2"
+83,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+84,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+85,1,1,1,"the ending, and is realistic.
+
+Answer: 2"
+86,0,0,1,"is self-image of being smart.
+
+Answer: 1"
+87,0,0,1,"plausible sequence of events.
+
+Answer: 1"
+88,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+89,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+90,0,0,1," to McDonald's for breakfast.
+
+Answer: 1"
+91,1,0,0," is scheduled for the future.
+
+Answer: 1"
+92,0,0,1,"ork, and she threw them away.
+
+Answer: 1"
+93,1,1,1,"oping her mom won't find out.
+
+Answer: 2"
+94,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+95,0,0,1," being taken to Disney World.
+
+Answer: 1"
+96,0,0,1,"d in the closet with kittens.
+
+Answer: 1"
+97,0,0,1,"g. So they pack up and leave.
+
+Answer: 1"
+98,0,0,1,"s consistent with the ending.
+
+Answer: 1"
+99,1,1,1,"eat score on a relevant test.
+
+Answer: 2"
+100,1,1,1,"ional reaction in the ending.
+
+Answer: 2"
+101,0,0,1,"pearance is a positive event.
+
+Answer: 1"
+102,0,0,1,"rative from beginning to end.
+
+Answer: 1"
+103,0,0,1,"t be glad to avoid the chore.
+
+Answer: 1"
+104,0,0,1,"t day, while Middle 2 is not.
+
+Answer: 1"
+105,0,0,1,"at the classical music venue.
+
+Answer: 1"
+106,1,1,1,"et, which results in the win.
+
+Answer: 2"
+107,1,1,1,"y consistent with the ending.
+
+Answer: 2"
+108,0,0,1,"ate ice cream being finished.
+
+Answer: 1"
+109,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+110,1,1,1,"nd makes the story plausible.
+
+Answer: 2"
+111,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+112,0,0,1," and an unrealistic scenario.
+
+Answer: 1"
+113,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+114,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+115,0,0,1,"ith the action in the ending.
+
+Answer: 1"
+116,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+117,0,0,1," after losing money gambling.
+
+Answer: 1"
+118,0,0,1," adopting a pet, not a child.
+
+Answer: 1"
+119,1,1,1,"lly consistent and plausible.
+
+Answer: 2"
+120,1,1,1,"ddle 2 is compatible with it.
+
+Answer: 2"
+121,0,0,1,"pts to fix an uneven haircut.
+
+Answer: 1"
+122,1,1,1,"the word ""but"" in the ending.
+
+Answer: 2"
+123,0,0,1,"e 1 places Joe on the flight.
+
+Answer: 1"
+124,1,1,1,"re's less reason for concern.
+
+Answer: 2"
+125,0,0,1," must have continued working.
+
+Answer: 1"
+126,1,1,1,"lains why his mom intervened.
+
+Answer: 2"
+127,0,0,1,"explain the positive outcome.
+
+Answer: 1"
+128,0,0,1,"iding he doesn't like biking.
+
+Answer: 1"
+129,0,0,1,"on of lateness in the ending.
+
+Answer: 1"
+130,0,0,1,"le 2 creates a contradiction.
+
+Answer: 1"
+131,1,1,1,"ccess to care for his mother.
+
+Answer: 2"
+132,0,0,1," nonsensical in this context.
+
+Answer: 1"
+133,1,1,1," — justifying John's ecstasy.
+
+Answer: 2"
+134,0,0,1,"ing, while Middle 2 does not.
+
+Answer: 1"
+135,1,1,1,"uitting because of the plant.
+
+Answer: 2"
+136,1,1,1,"er to serving others in need.
+
+Answer: 2"
+137,1,1,1,"outcome of actually doing so.
+
+Answer: 2"
+138,0,1,0," consistent with the outcome.
+
+Answer: 2"
+139,0,0,1,"the spot” doesn’t make sense.
+
+Answer: 1"
+140,1,1,1,"ng thousands of kids English.
+
+Answer: 2"
+141,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+142,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+143,0,0,1,"ing, while Middle 2 does not.
+
+Answer: 1"
+144,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+145,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+146,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+147,0,0,1,"adicts the need for a change.
+
+Answer: 1"
+148,1,1,1,"iguous personal relationship.
+
+Answer: 2"
+149,0,0,1,"daughter at the monkey cages.
+
+Answer: 1"
+150,1,1,1,"e was given, even if spilled.
+
+Answer: 2"
+151,0,0,1,"xt is given (which it isn't).
+
+Answer: 1"
+152,0,0,1," robot being short-circuited.
+
+Answer: 1"
+153,0,0,1,"dent described in the ending.
+
+Answer: 1"
+154,0,0,1,"r reason to improve security.
+
+Answer: 1"
+155,0,0,1,"st have attended the classes.
+
+Answer: 1"
+156,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+157,0,0,1,"ogical source for a windfall.
+
+Answer: 1"
+158,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+159,0,0,1,"tist visit → cavities filled.
+
+Answer: 1"
+160,1,1,1,"plausible sequence of events.
+
+Answer: 2"
+161,0,0,1,"cal and coherent progression.
+
+Answer: 1"
+162,0,0,1,"e that would justify the vow.
+
+Answer: 1"
+163,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+164,0,0,1,"ision to positive reflection.
+
+Answer: 1"
+165,0,0,1," and looking great afterward.
+
+Answer: 1"
+166,0,0,1,"desire to immediate purchase.
+
+Answer: 1"
+167,1,1,1," the beginning to the ending.
+
+Answer: 2"
+168,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+169,0,0,1,"context of a realistic story.
+
+Answer: 1"
+170,1,1,1,"e into dry clothes afterward.
+
+Answer: 2"
+171,0,0,1,"e left something on the roof.
+
+Answer: 1"
+172,0,0,1,"since he had no reason to go.
+
+Answer: 1"
+173,1,1,1,"l and feeling like a failure.
+
+Answer: 2"
+174,1,1,1," a paint stain on the carpet.
+
+Answer: 2"
+175,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+176,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+177,1,1,1,"narratively consistent story.
+
+Answer: 2"
+178,1,1,1,"on → solution (dust cleaner).
+
+Answer: 2"
+179,0,0,1,"ence described in the ending.
+
+Answer: 1"
+180,0,0,1,"ivery, not five-day delivery.
+
+Answer: 1"
+181,0,0,1,"rfect landing than ""awkward.""
+
+Answer: 1"
+182,1,1,1,"he dream and the achievement.
+
+Answer: 2"
+183,1,1,1," at a private party with Ann.
+
+Answer: 2"
+184,0,0,1," severity of the consequence.
+
+Answer: 1"
+185,1,1,1,"sness to forming friendships.
+
+Answer: 2"
+186,1,1,1,"usible reason for the ending.
+
+Answer: 2"
+187,1,1,1,"coherent and plausible story.
+
+Answer: 2"
+188,1,1,1," keep trying despite failure.
+
+Answer: 2"
+189,1,1,1,"ng not cleaning them earlier.
+
+Answer: 2"
+190,1,1,1," gay and giving a bad review.
+
+Answer: 2"
+191,1,1,1,"his grass. Middle 1 does not.
+
+Answer: 2"
+192,1,1,1,"gical cause-and-effect chain.
+
+Answer: 2"
+193,0,0,1,"rent and plausible narrative.
+
+Answer: 1"
+194,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+195,1,1,1,"ing the story more plausible.
+
+Answer: 2"
+196,1,1,1,"ing sick than drinking vodka.
+
+Answer: 2"
+197,1,1,1,"heartbreak to feeling better.
+
+Answer: 2"
+198,0,0,1,"otable and plausible outcome.
+
+Answer: 1"
+199,0,0,1,"nding, while Middle 2 is not.
+
+Answer: 1"
+200,1,1,1,"thes that suit her body type.
+
+Answer: 2"
+201,0,0,1,"d her feeling of wasted time.
+
+Answer: 1"
+202,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+203,0,0,1,"orking hard and earning more.
+
+Answer: 1"
+204,0,0,1,"pain mentioned in the ending.
+
+Answer: 1"
+205,1,1,1,"ddle 2 is far more plausible.
+
+Answer: 2"
+206,0,1,0,"t → goes to look for the car.
+
+Answer: 2"
+207,1,1,1,"e cause stated in the ending.
+
+Answer: 2"
+208,1,1,1," the beginning to the ending.
+
+Answer: 2"
+209,0,0,1,"hungry to not wanting to eat.
+
+Answer: 1"
+210,1,1,1,"e and coherent narrative arc.
+
+Answer: 2"
+211,1,1,1,"ble cause for the broken arm.
+
+Answer: 2"
+212,0,0,1,"llowed by a positive outcome.
+
+Answer: 1"
+213,0,1,0,"more naturally to the ending.
+
+Answer: 2"
+214,0,0,1,"ddle 1 is far more plausible.
+
+Answer: 1"
+215,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+216,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+217,0,0,1,"aving nothing for the others.
+
+Answer: 1"
+218,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+219,1,1,1,"'s intention and the outcome.
+
+Answer: 2"
+220,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+221,0,0,1," contradicting the beginning.
+
+Answer: 1"
+222,0,0,1,"ring she's pregnant, not ill.
+
+Answer: 1"
+223,1,1,1,"ent and plausible transition.
+
+Answer: 2"
+224,0,0,1,"ing her arm under cold water.
+
+Answer: 1"
+225,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+226,0,0,1,"tely deciding to order pizza.
+
+Answer: 1"
+227,0,0,1," her later promise to change.
+
+Answer: 1"
+228,0,0,1,"d emotionally coherent story.
+
+Answer: 1"
+229,0,0,1,"cy, making her feel grown-up.
+
+Answer: 1"
+230,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+231,1,1,1,"herent, satisfying story arc.
+
+Answer: 2"
+232,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+233,0,0,1,"plausible sequence of events.
+
+Answer: 1"
+234,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+235,0,0,1,"if there was nothing to find.
+
+Answer: 1"
+236,1,1,1," a problem, and was punished.
+
+Answer: 2"
+237,0,0,1,"ion on why he was so worried.
+
+Answer: 1"
+238,0,0,1,"le 2 contradicts the outcome.
+
+Answer: 1"
+239,1,1,1,"a plausible and coherent way.
+
+Answer: 2"
+240,0,-1,0,"fers to Markus's boss, and ""made a fresh"
+241,1,1,1,"eeding someone to let her in.
+
+Answer: 2"
+242,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+243,0,1,0," him investing his own money.
+
+Answer: 2"
+244,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+245,0,0,1,"trip and a man going to jail.
+
+Answer: 1"
+246,0,0,1,"the friendly, relaxed ending.
+
+Answer: 1"
+247,1,1,1,"e winning Betty Boop costume.
+
+Answer: 2"
+248,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+249,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+250,0,0,1,"ment in a rock-related field.
+
+Answer: 1"
+251,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+252,0,0,1,"sale described in the ending.
+
+Answer: 1"
+253,0,0,1,"hile Middle 2 contradicts it.
+
+Answer: 1"
+254,0,0,1,"c setting of a swimming pool.
+
+Answer: 1"
+255,0,0,1,"e context and the resolution.
+
+Answer: 1"
+256,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+257,1,1,1,"nightmares to peaceful sleep.
+
+Answer: 2"
+258,0,0,1,"g to the completion of tasks.
+
+Answer: 1"
+259,0,0,1,"s the reason for backing out.
+
+Answer: 1"
+260,1,1,1,"s her to rise above her fear.
+
+Answer: 2"
+261,1,1,1,"vior described in the ending.
+
+Answer: 2"
+262,0,0,1,"ausible cause for the ending.
+
+Answer: 1"
+263,1,-1,0,"e plausible than penguins.
+
+In real life"
+264,0,0,1,"she spends hours cleaning it.
+
+Answer: 1"
+265,0,0,1,"sitive, well-received change.
+
+Answer: 1"
+266,1,1,1," relationship with a teacher.
+
+Answer: 2"
+267,1,1,1,"ng a dog and taking one home.
+
+Answer: 2"
+268,0,0,1,"
+Middle 1: Melissa felt bad that her游戏副本"
+269,0,0,1,"2 introduces a contradiction.
+
+Answer: 1"
+270,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+271,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+272,1,1,1,"ue to the mismatched pronoun.
+
+Answer: 2"
+273,1,1,1," the beginning to the ending.
+
+Answer: 2"
+274,1,1,1,"oesn't make sense in context.
+
+Answer: 2"
+275,1,1,1," the beginning to the ending.
+
+Answer: 2"
+276,0,0,1,"ake meaningful and impactful.
+
+Answer: 1"
+277,0,0,1,"d to admitting fault for one.
+
+Answer: 1"
+278,0,0,1,"ically from beginning to end.
+
+Answer: 1"
+279,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+280,1,1,1,"ld have listened to his wife.
+
+Answer: 2"
+281,0,0,1,"ke’s realization and remorse.
+
+Answer: 1"
+282,0,0,1,"y getting sick from bad food.
+
+Answer: 1"
+283,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+284,0,0,1,"nvolve a positive experience.
+
+Answer: 1"
+285,1,1,1,"ision to always buy cupcakes.
+
+Answer: 2"
+286,1,1,1,"yoff described in the ending.
+
+Answer: 2"
+287,0,1,0,"consistent with fibromyalgia.
+
+Answer: 2"
+288,1,1,1,"and experience it as awesome.
+
+Answer: 2"
+289,0,0,1,"he consequence in the ending.
+
+Answer: 1"
+290,0,0,1," have wanted to be a mermaid.
+
+Answer: 1"
+291,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+292,0,0,1,"tly connected to the outcome.
+
+Answer: 1"
+293,0,-1,0,"ike coffee"" — implying she expected tea,"
+294,0,0,1," diagnosis → death → funeral.
+
+Answer: 1"
+295,0,0,1,"g fruit. It's less plausible.
+
+Answer: 1"
+296,1,0,0,"it precious despite its flaw.
+
+Answer: 1"
+297,0,0,1,"), and the final realization.
+
+Answer: 1"
+298,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+299,0,0,1," contradicts the consequence.
+
+Answer: 1"
+300,1,1,1," experience to a good review.
+
+Answer: 2"
+301,1,1,1,"cal and coherent progression.
+
+Answer: 2"
+302,1,1,1,"desk described in the ending.
+
+Answer: 2"
+303,0,0,1," the narrative's credibility.
+
+Answer: 1"
+304,0,0,1,"nce → desire to return often.
+
+Answer: 1"
+305,1,1,1,"could be stolen by a seagull.
+
+Answer: 2"
+306,0,0,1," 1 fits the narrative better.
+
+Answer: 1"
+307,0,0,1,"alking and breaking an ankle.
+
+Answer: 1"
+308,1,1,1,"eads naturally to the ending.
+
+Answer: 2"
+309,1,1,1,"plausible sequence of events.
+
+Answer: 2"
+310,0,0,1,"king the ending inconsistent.
+
+Answer: 1"
+311,0,0,1," introduces an inconsistency.
+
+Answer: 1"
+312,0,0,1,"1 better supports the ending.
+
+Answer: 1"
+313,1,1,1,"t circle for several minutes.
+
+Answer: 2"
+314,0,0,1,"sion to refuse in the future.
+
+Answer: 1"
+315,1,1,1,"plausible cause for the burn.
+
+Answer: 2"
+316,1,1,1,"a coherent and realistic way.
+
+Answer: 2"
+317,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+318,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+319,0,0,1,"the narrator moved it anyway.
+
+Answer: 1"
+320,0,0,1,"the compromise in the ending.
+
+Answer: 1"
+321,1,1,1,"desire and the happy outcome.
+
+Answer: 2"
+322,1,0,0,"at fits better with Middle 1.
+
+Answer: 1"
+323,1,1,1,"n and the story's conclusion.
+
+Answer: 2"
+324,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+325,1,1,1,"ts better with the narrative.
+
+Answer: 2"
+326,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+327,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+328,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+329,1,1,1,"e parent reacts with silence.
+
+Answer: 2"
+330,0,0,1,"out having built bird houses.
+
+Answer: 1"
+331,0,0,1,"he effect (they couldn’t go).
+
+Answer: 1"
+332,0,0,1,"s powdered sugar is expected.
+
+Answer: 1"
+333,0,0,1,"y and subsequent improvement.
+
+Answer: 1"
+334,1,1,1,"ilk is the only thing nearby.
+
+Answer: 2"
+335,0,0,1,"onal and cultural experience.
+
+Answer: 1"
+336,0,0,1,"t mentioned in the beginning.
+
+Answer: 1"
+337,1,1,1,"on → fulfillment → happiness.
+
+Answer: 2"
+338,0,0,1,"o her disliking the outdoors.
+
+Answer: 1"
+339,1,1,1," effect stated in the ending.
+
+Answer: 2"
+340,0,0,1,"o being pleased with results.
+
+Answer: 1"
+341,0,0,1,"e a joyful first letter home.
+
+Answer: 1"
+342,0,0,1,"explains a sudden, high fall.
+
+Answer: 1"
+343,1,1,1,"ending without contradiction.
+
+Answer: 2"
+344,1,1,1,"a coherent and plausible way.
+
+Answer: 2"
+345,1,1,1,"nd it being capsized by wind.
+
+Answer: 2"
+346,1,1,1,"sed effort on reading itself.
+
+Answer: 2"
+347,0,0,1,"n in motivation and dynamics.
+
+Answer: 1"
+348,0,0,1,"f the cookies as ""delicious.""
+
+Answer: 1"
+349,0,0,1,"gender and subject reference.
+
+Answer: 1"
+350,0,0,1,"tting injured by a dodgeball.
+
+Answer: 1"
+351,0,0,1,"sonable cause for an apology.
+
+Answer: 1"
+352,0,0,1,"ive reception of his project.
+
+Answer: 1"
+353,1,1,1," the entire bolt of material.
+
+Answer: 2"
+354,0,0,1,"ion → recovery → renewed joy.
+
+Answer: 1"
+355,0,0,1," wisdom to charitable action.
+
+Answer: 1"
+356,0,0,1," extraordinary circumstances.
+
+Answer: 1"
+357,1,1,1,"→ cat shares food with Mabel.
+
+Answer: 2"
+358,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+359,0,0,1," the beginning to the ending.
+
+Answer: 1"
+360,1,1,1,"sell → decide to sell online.
+
+Answer: 2"
+361,1,1,1,"reaks the logical connection.
+
+Answer: 2"
+362,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+363,1,1,1,"ession from beginning to end.
+
+Answer: 2"
+364,0,0,1," nonsensical in this context.
+
+Answer: 1"
+365,1,1,1,"more plausibly to the ending.
+
+Answer: 2"
+366,0,0,1,"monade, wins, and is cheered.
+
+Answer: 1"
+367,1,1,1,"s doesn't justify the ending.
+
+Answer: 2"
+368,1,1,1,"ng to become a social worker.
+
+Answer: 2"
+369,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+370,1,1,1,"for the ending to make sense.
+
+Answer: 2"
+371,0,0,1,"e action shown in the ending.
+
+Answer: 1"
+372,0,0,1,"ts perfectly with the ending.
+
+Answer: 1"
+373,1,1,1,"ream and later offering help.
+
+Answer: 2"
+374,0,0,1,"es to volunteer time instead.
+
+Answer: 1"
+375,1,1,1,"to make the ending plausible.
+
+Answer: 2"
+376,0,0,1,"rocery store cannot fix hair.
+
+Answer: 1"
+377,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+378,1,1,1,"lf, not an external accident.
+
+Answer: 2"
+379,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+380,0,0,1,"ons and the positive outcome.
+
+Answer: 1"
+381,0,0,1,") rather than a lack thereof.
+
+Answer: 1"
+382,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+383,1,1,1,"an no longer continue fairly.
+
+Answer: 2"
+384,0,1,0,"ligns better with the ending.
+
+Answer: 2"
+385,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+386,1,1,1,"ional outburst in the ending.
+
+Answer: 2"
+387,1,1,1," time because it was so good.
+
+Answer: 2"
+388,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+389,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+390,0,0,1,"ith the action in the ending.
+
+Answer: 1"
+391,0,0,1,"le 2 creates a contradiction.
+
+Answer: 1"
+392,1,1,1,"lt homework and finishing it.
+
+Answer: 2"
+393,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+394,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+395,0,0,1,"e successful campaign launch.
+
+Answer: 1"
+396,0,0,1," and is pleasantly surprised.
+
+Answer: 1"
+397,0,1,0,"p for the surprising outcome.
+
+Answer: 2"
+398,0,0,1,"tion to a sense of belonging.
+
+Answer: 1"
+399,1,1,1,"e consistent with the ending.
+
+Answer: 2"
+400,0,0,1," owner to run 12 miles a day.
+
+Answer: 1"
+401,1,1,1," ultimately throwing it away.
+
+Answer: 2"
+402,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+403,0,0,1,"hat success three more times.
+
+Answer: 1"
+404,0,0,1,"kes the story more plausible.
+
+Answer: 1"
+405,0,0,1,"’s allergies and the outcome.
+
+Answer: 1"
+406,0,0,1,"dle 2 contradicts the ending.
+
+Answer: 1"
+407,1,1,1,"hout re-entering to buy more.
+
+Answer: 2"
+408,0,0,1,"le as a global rice producer.
+
+Answer: 1"
+409,1,0,0,"more plausibly to the ending.
+
+Answer: 1"
+410,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+411,0,1,0,"ducing unrelated social bias.
+
+Answer: 2"
+412,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+413,0,0,1,"sible due to its incoherence.
+
+Answer: 1"
+414,1,1,1,"ness and her final happiness.
+
+Answer: 2"
+415,0,0,1,"e she loved at the pet store.
+
+Answer: 1"
+416,1,1,1," and needing hospitalization.
+
+Answer: 2"
+417,1,1,1,"ajectory shown in the ending.
+
+Answer: 2"
+418,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+419,1,1,1,"ing result is less plausible.
+
+Answer: 2"
+420,0,0,1,"ides a more plausible bridge.
+
+Answer: 1"
+421,1,1,1,"rent and plausible story arc.
+
+Answer: 2"
+422,0,0,1," celebration less believable.
+
+Answer: 1"
+423,1,1,1,"’s not a strong enough cause.
+
+Answer: 2"
+424,0,0,1,"d Sam’s subsequent happiness.
+
+Answer: 1"
+425,1,1,1,"cal motivation in the ending.
+
+Answer: 2"
+426,1,1,1," overconfidence and his loss.
+
+Answer: 2"
+427,1,1,1,"ert and winning a free shirt.
+
+Answer: 2"
+428,1,1,1,"and receiving a prescription.
+
+Answer: 2"
+429,0,0,1,"ccess in ordering the camera.
+
+Answer: 1"
+430,1,1,1,"it around his neck as a cape.
+
+Answer: 2"
+431,0,0,1," and plausible narrative arc.
+
+Answer: 1"
+432,1,1,1,"t compelled to go through it.
+
+Answer: 2"
+433,0,-1,0,"bsence of conflict cues.
+
+Thus, Middle 1"
+434,1,1,1,"wts and their increased size.
+
+Answer: 2"
+435,0,0,1,"s with being told to go home.
+
+Answer: 1"
+436,0,0,1,"ausible cause for the ending.
+
+Answer: 1"
+437,0,0,1,"ines the initial description.
+
+Answer: 1"
+438,1,1,1," a student failing her class.
+
+Answer: 2"
+439,1,1,1,"ausible cause for the ending.
+
+Answer: 2"
+440,1,1,1,"n and her love of the lights.
+
+Answer: 2"
+441,0,0,1,"r Sara to quit soda entirely.
+
+Answer: 1"
+442,1,1,1,"singing and posting the song.
+
+Answer: 2"
+443,1,1,1,"ing, while Middle 2 does not.
+
+Answer: 2"
+444,1,1,1,"den and its eventual success.
+
+Answer: 2"
+445,0,0,1,"ddle 1 is far more plausible.
+
+Answer: 1"
+446,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+447,1,1,1," ending is getting a snack.  
+
+Answer: 2"
+448,0,0,1,"ds directly to the discovery.
+
+Answer: 1"
+449,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+450,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+451,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+452,0,0,1,"ent when promises are broken.
+
+Answer: 1"
+453,1,1,1,"lly consistent and plausible.
+
+Answer: 2"
+454,0,0,1,"e sequence with a warm night.
+
+Answer: 1"
+455,1,1,1,"a coherent and realistic way.
+
+Answer: 2"
+456,0,0,1,"n and his ultimate departure.
+
+Answer: 1"
+457,0,0,1,"t with the emotional outcome.
+
+Answer: 1"
+458,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+459,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+460,1,1,1," is unrelated to cleanliness.
+
+Answer: 2"
+461,1,1,1,"leads directly to the ending.
+
+Answer: 2"
+462,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+463,1,1,1,"ire and her eventual ability.
+
+Answer: 2"
+464,1,1,1,"hought of loss, not survival.
+
+Answer: 2"
+465,0,0,1," he wakes her in the morning.
+
+Answer: 1"
+466,1,1,1,"ore consistent and plausible.
+
+Answer: 2"
+467,1,1,1,"nt and plausible progression.
+
+Answer: 2"
+468,1,1,1,"ich makes the story coherent.
+
+Answer: 2"
+469,1,1,1," a logical and plausible way.
+
+Answer: 2"
+470,0,0,1,"attending more in the future.
+
+Answer: 1"
+471,0,0,1,"more plausibly to the ending.
+
+Answer: 1"
+472,1,1,1," the beginning to the ending.
+
+Answer: 2"
+473,0,0,1,"s the outcome more plausible.
+
+Answer: 1"
+474,0,0,1," more coherent and plausible.
+
+Answer: 1"
+475,1,1,1," the beginning to the ending.
+
+Answer: 2"
+476,0,0,1,"o ""squeeze"" into her costume.
+
+Answer: 1"
+477,1,1,1," actually being the criminal.
+
+Answer: 2"
+478,0,0,1," and plausible narrative arc.
+
+Answer: 1"
+479,1,1,1,"ng her mom's too-small shoes.
+
+Answer: 2"
+480,1,1,1,"kes the story more plausible.
+
+Answer: 2"
+481,1,1,1,"n, making the story coherent.
+
+Answer: 2"
+482,0,0,1," → found them in coat pocket.
+
+Answer: 1"
+483,0,0,1,"ation about loose restraints.
+
+Answer: 1"
+484,0,0,1," being an orphan? It doesn't.
+
+Answer: 1"
+485,0,0,1,"ment described in the ending.
+
+Answer: 1"
+486,0,1,0,"to be in shock while driving.
+
+Answer: 2"
+487,1,1,1," the money to hating himself.
+
+Answer: 2"
+488,0,0,1,"result (glitter on her face).
+
+Answer: 1"
+489,0,0,1,"e safety by buying new tires.
+
+Answer: 1"
+490,0,0,1,"an interest in military life.
+
+Answer: 1"
+491,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+492,1,1,1,"ey and actually saving money.
+
+Answer: 2"
+493,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+494,1,1,1,"nding, while Middle 1 is not.
+
+Answer: 2"
+495,0,0,1,"nts leading to homeownership.
+
+Answer: 1"
+496,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+497,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+498,0,0,1," is consistent and plausible.
+
+Answer: 1"
+499,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+500,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+501,1,1,1,"ecause he was already unwell.
+
+Answer: 2"
+502,1,1,1,"ing comforted, Jim punished).
+
+Answer: 2"
+503,1,1,1," narrator eventually fainted.
+
+Answer: 2"
+504,1,1,1,"more logically to the ending.
+
+Answer: 2"
+505,0,0,1,"eping warm as winter arrives.
+
+Answer: 1"
+506,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+507,1,1,1,"r beginning a deadly streak).
+
+Answer: 2"
+508,1,1,1,"ng the ending more plausible.
+
+Answer: 2"
+509,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+510,0,0,1,"ng explains why (her accent).
+
+Answer: 1"
+511,0,0,1,"at has been lovingly rebuilt.
+
+Answer: 1"
+512,0,0,1," more coherent and plausible.
+
+Answer: 1"
+513,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+514,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+515,0,0,1,"ddle 1 is far more plausible.
+
+Answer: 1"
+516,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+517,1,1,1,"make Middle 2 more plausible.
+
+Answer: 2"
+518,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+519,1,1,1,"he motivation for publishing.
+
+Answer: 2"
+520,0,0,1,"le 2 creates a contradiction.
+
+Answer: 1"
+521,0,0,1,": Middle 1 is more plausible.
+
+Answer: 1"
+522,1,1,1,"rongly connect to the ending.
+
+Answer: 2"
+523,1,1,1,"for the ending to make sense.
+
+Answer: 2"
+524,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+525,1,1,1,"y consistent with the ending.
+
+Answer: 2"
+526,1,1,1,"r the food being thrown away.
+
+Answer: 2"
+527,0,0,1," and the impending snowstorm.
+
+Answer: 1"
+528,1,1,1,"ore consistent and plausible.
+
+Answer: 2"
+529,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+530,1,1,1," the beginning to the ending.
+
+Answer: 2"
+531,1,1,1,"sing money to treat oneself).
+
+Answer: 2"
+532,1,1,1,"d its removal caused sadness.
+
+Answer: 2"
+533,0,1,0,"ldren's sadness the next day.
+
+Answer: 2"
+534,1,1,1," the beginning to the ending.
+
+Answer: 2"
+535,1,1,1,"effort but still doesn't win.
+
+Answer: 2"
+536,0,0,1," up to it and ate everything.
+
+Answer: 1"
+537,1,1,1,"aking the skepticism logical.
+
+Answer: 2"
+538,0,0,1," to dominate (""take it all"").
+
+Answer: 1"
+539,1,1,1,"ation that it was a new idea.
+
+Answer: 2"
+540,0,0,1,"ins why they couldn't decide.
+
+Answer: 1"
+541,1,1,1," to make a new cup of coffee.
+
+Answer: 2"
+542,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+543,1,1,1,"usible progression of events.
+
+Answer: 2"
+544,0,0,1,"sis of diabetes) is Middle 1.
+
+Answer: 1"
+545,0,0,1,"fort to fix the relationship.
+
+Answer: 1"
+546,0,0,1,"kup, while Middle 2 does not.
+
+Answer: 1"
+547,0,0,1,"t doesn’t support the ending.
+
+Answer: 1"
+548,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+549,0,0,1,"ing meaningful and plausible.
+
+Answer: 1"
+550,0,0,1," enrolling in cooking school.
+
+Answer: 1"
+551,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+552,1,1,1," up with a sprained shoulder.
+
+Answer: 2"
+553,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+554,0,0,1,"s exhaustion and unhappiness.
+
+Answer: 1"
+555,1,1,1,"usness to a positive outcome.
+
+Answer: 2"
+556,0,0,1," nervousness and his victory.
+
+Answer: 1"
+557,1,1,1,"ermanently leaving the field.
+
+Answer: 2"
+558,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+559,1,1,1,"he fact, due to overexertion.
+
+Answer: 2"
+560,0,0,1,"provide real-world knowledge.
+
+Answer: 1"
+561,0,0,1,"n → gets caught → imprisoned.
+
+Answer: 1"
+562,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+563,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+564,1,1,1,"ng up excitedly eating lunch.
+
+Answer: 2"
+565,1,1,1,"ally connected and plausible.
+
+Answer: 2"
+566,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+567,1,1,1,"y something for the next one.
+
+Answer: 2"
+568,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+569,1,1,1,"sible cause-and-effect chain.
+
+Answer: 2"
+570,0,0,1,"stay up all night playing it.
+
+Answer: 1"
+571,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+572,0,0,1,"aren't supported by the text.
+
+Answer: 1"
+573,0,0,1,"ses not to tell Tom about it.
+
+Answer: 1"
+574,0,0,1,"rcycle and coming to love it.
+
+Answer: 1"
+575,0,0,1,"ems and eventually improving.
+
+Answer: 1"
+576,0,0,1,"cohol and his eventual death.
+
+Answer: 1"
+577,1,1,1,"yful embrace of the sunshine.
+
+Answer: 2"
+578,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+579,1,1,1,"and returning with groceries.
+
+Answer: 2"
+580,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+581,0,0,1," respect in a school setting.
+
+Answer: 1"
+582,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+583,0,0,1,"tradiction in tone and logic.
+
+Answer: 1"
+584,0,0,1,"essure, last-second scenario.
+
+Answer: 1"
+585,1,1,1," and the party for a breakup.
+
+Answer: 2"
+586,0,0,1,"all or why he is laying down.
+
+Answer: 1"
+587,0,0,1,"eventually found at the SPCA.
+
+Answer: 1"
+588,1,1,1,"resence of additional people.
+
+Answer: 2"
+589,0,-1,0,"ts"" — she had three nights, but the last"
+590,0,0,1,"pendence). Middle 2 does not.
+
+Answer: 1"
+591,1,1,1,"fect described in the ending.
+
+Answer: 2"
+592,1,1,1," which breaks the continuity.
+
+Answer: 2"
+593,1,1,1,"p by filling bags with trash.
+
+Answer: 2"
+594,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+595,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+596,0,0,1," more coherent and plausible.
+
+Answer: 1"
+597,1,1,1," eventually quitting her job.
+
+Answer: 2"
+598,1,1,1,"in the flow of a soccer game.
+
+Answer: 2"
+599,0,0,1,"anishes when he puts on skis.
+
+Answer: 1"
+600,0,0,1,"g a sweet treat with someone.
+
+Answer: 1"
+601,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+602,1,1,1,"nce is logical and plausible.
+
+Answer: 2"
+603,0,0,1,"to her enjoying a new church.
+
+Answer: 1"
+604,1,1,1,"g amount of work still to do.
+
+Answer: 2"
+605,1,1,1,"eline and logic of the story.
+
+Answer: 2"
+606,0,0,1," accidents that damage walls.
+
+Answer: 1"
+607,1,1,1,"al and plausible progression.
+
+Answer: 2"
+608,1,1,1,"gling with lifting the boxes.
+
+Answer: 2"
+609,0,0,1,"with a first-time experience.
+
+Answer: 1"
+610,1,1,1," son continues the tradition.
+
+Answer: 2"
+611,1,1,1,"ontext of the story's ending.
+
+Answer: 2"
+612,0,0,1,"den cat nest more believable.
+
+Answer: 1"
+613,0,0,1,"which would now be long over.
+
+Answer: 1"
+614,1,1,1,"or why everyone was laughing.
+
+Answer: 2"
+615,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+616,1,1,1," narrator to leave her alone.
+
+Answer: 2"
+617,0,0,1,"plausible sequence of events.
+
+Answer: 1"
+618,0,0,1,"ddle 1 is far more plausible.
+
+Answer: 1"
+619,0,1,0,"lausible given the beginning.
+
+Answer: 2"
+620,0,0,1,"on for William's improvement.
+
+Answer: 1"
+621,0,0,1,"path and his death in a fire.
+
+Answer: 1"
+622,1,1,1,"lief expressed in the ending.
+
+Answer: 2"
+623,0,0,1," suddenly in the early hours.
+
+Answer: 1"
+624,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+625,0,0,1,"narrator ended up with Zippy.
+
+Answer: 1"
+626,0,0,1," resolved tone of the ending.
+
+Answer: 1"
+627,0,1,0," less plausible in real life.
+
+Answer: 2"
+628,1,1,1,"alistic cause for the ending.
+
+Answer: 2"
+629,1,1,1,"plausible middle is Middle 2.
+
+Answer: 2"
+630,0,0,1," for why Tom's work was lost.
+
+Answer: 1"
+631,0,0,1,"dle 2 contradicts the ending.
+
+Answer: 1"
+632,0,0,1,"late students wouldn't apply.
+
+Answer: 1"
+633,0,0,1,"al confirmation of her fears.
+
+Answer: 1"
+634,0,1,0,"ds directly to the breakdown.
+
+Answer: 2"
+635,0,0,1,"od and the group enjoying it.
+
+Answer: 1"
+636,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+637,1,1,1,"coherent and plausible story.
+
+Answer: 2"
+638,0,0,1," emotional tone of the story.
+
+Answer: 1"
+639,1,1,1,"ntion → resolution (sharing).
+
+Answer: 2"
+640,0,0,1," doesn't support the outcome.
+
+Answer: 1"
+641,0,0,1,"nd cause-effect logic better.
+
+Answer: 1"
+642,1,1,1,"story coherent and plausible.
+
+Answer: 2"
+643,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+644,1,1,1," a logical and plausible way.
+
+Answer: 2"
+645,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+646,1,1,1,"ring and the early departure.
+
+Answer: 2"
+647,1,1,1," clearly explain improvement.
+
+Answer: 2"
+648,0,0,1,"the resolution in the ending.
+
+Answer: 1"
+649,1,1,1,"nd later regrets its closure.
+
+Answer: 2"
+650,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+651,0,0,1,"mph reading a humorous point.
+
+Answer: 1"
+652,1,1,1,"don't directly attract birds.
+
+Answer: 2"
+653,1,1,1," 2013 → surprise and sadness.
+
+Answer: 2"
+654,1,1,1,"ith the timeline and context.
+
+Answer: 2"
+655,0,0,1,"ked when she sees the result.
+
+Answer: 1"
+656,0,0,1,"ndy, which inspires his idea.
+
+Answer: 1"
+657,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+658,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+659,1,1,1,"ff (best birthday gift ever).
+
+Answer: 2"
+660,1,1,1,"y consistent with the events.
+
+Answer: 2"
+661,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+662,0,0,1," tree climbing seem unlikely.
+
+Answer: 1"
+663,1,1,1,"plausible sequence of events.
+
+Answer: 2"
+664,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+665,1,1,1,"emotionally consistent story.
+
+Answer: 2"
+666,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+667,1,1,1," which enhances Ben's status.
+
+Answer: 2"
+668,1,1,1,"dle 1 contradicts the ending.
+
+Answer: 2"
+669,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+670,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+671,0,0,1,"usible in the narrative flow.
+
+Answer: 1"
+672,0,0,1,"why the person was terrified.
+
+Answer: 1"
+673,1,1,1,"ausible in a general context.
+
+Answer: 2"
+674,0,0,1,"n the event and the reaction.
+
+Answer: 1"
+675,0,0,1,"be nervous after meeting him.
+
+Answer: 1"
+676,1,1,1,"the story logically coherent.
+
+Answer: 2"
+677,0,0,1,"re plausible narrative chain.
+
+Answer: 1"
+678,1,1,1,"dle 2 is much more plausible.
+
+Answer: 2"
+679,0,0,1," search and the satisfaction.
+
+Answer: 1"
+680,0,0,1," the winter blizzard context.
+
+Answer: 1"
+681,0,0,1,"which contradicts the ending.
+
+Answer: 1"
+682,1,1,1,"r why she stayed in and read.
+
+Answer: 2"
+683,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+684,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+685,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+686,0,0,1,"used on the collapsed person.
+
+Answer: 1"
+687,1,1,1,"jury described in the ending.
+
+Answer: 2"
+688,1,1,1,"rk and eventually redoing it.
+
+Answer: 2"
+689,0,0,1,"e paint for a public message.
+
+Answer: 1"
+690,1,1,1,"l being one many years later.
+
+Answer: 2"
+691,0,0,1," more coherent and plausible.
+
+Answer: 1"
+692,0,0,1,"akes the story more coherent.
+
+Answer: 1"
+693,0,0,1,"le 2 creates a contradiction.
+
+Answer: 1"
+694,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+695,1,1,1," and actually asking someone.
+
+Answer: 2"
+696,0,0,1,"ith his mom’s financial help.
+
+Answer: 1"
+697,0,1,0,"s the outcome more plausible.
+
+Answer: 2"
+698,1,1,1,"feels happy about his choice.
+
+Answer: 2"
+699,0,0,1,"iend along, and she loved it.
+
+Answer: 1"
+700,1,1,1,"ening dealing with the virus.
+
+Answer: 2"
+701,0,1,0,"d cause heightened alertness.
+
+Answer: 2"
+702,0,0,1,"the decision to recommend it.
+
+Answer: 1"
+703,0,0,1," plausible given the context.
+
+Answer: 1"
+704,1,1,1,"le 1 contradicts the setting.
+
+Answer: 2"
+705,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+706,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+707,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+708,1,1,1,"plausible path to the ending.
+
+Answer: 2"
+709,0,0,1," story logical and plausible.
+
+Answer: 1"
+710,0,0,1,"ossibly to enhance his image.
+
+Answer: 1"
+711,0,0,1,"rved reduction in fine lines.
+
+Answer: 1"
+712,1,1,1,"is would quit his internship.
+
+Answer: 2"
+713,1,1,1,"t makes the ending plausible.
+
+Answer: 2"
+714,1,1,1,"dle 1 contradicts the ending.
+
+Answer: 2"
+715,1,1,1,"ns, making her miss him more.
+
+Answer: 2"
+716,0,0,1,"ery; Middle 2 contradicts it.
+
+Answer: 1"
+717,0,0,1," the beginning to the ending.
+
+Answer: 1"
+718,0,0,1,"e ending, even with the typo.
+
+Answer: 1"
+719,0,1,0,"amed location closer to home.
+
+Answer: 2"
+720,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+721,0,0,1,"s, they are still suspicious.
+
+Answer: 1"
+722,0,0,1,"le 2 breaks the logical flow.
+
+Answer: 1"
+723,1,1,1,"et, which matches the ending.
+
+Answer: 2"
+724,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+725,1,1,1,"ing a rabbit leading to fear.
+
+Answer: 2"
+726,0,0,1,"nd later decorating the tree.
+
+Answer: 1"
+727,0,0,1,"and planning a future outing.
+
+Answer: 1"
+728,1,1,1,"coherent and plausible story.
+
+Answer: 2"
+729,1,1,1," the beginning to the ending.
+
+Answer: 2"
+730,1,1,1,"n justifies being kicked out.
+
+Answer: 2"
+731,0,0,1,"ntually becoming a lifeguard.
+
+Answer: 1"
+732,1,1,1,"kes the story more plausible.
+
+Answer: 2"
+733,0,0,1,"ity change through clothing).
+
+Answer: 1"
+734,0,0,1,"he ending. Middle 2 does not.
+
+Answer: 1"
+735,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+736,0,0,1,"hile Middle 2 contradicts it.
+
+Answer: 1"
+737,1,1,1," the story’s tone and events.
+
+Answer: 2"
+738,1,1,1,"fails, leading to heartbreak.
+
+Answer: 2"
+739,0,0,1," and plausible narrative arc.
+
+Answer: 1"
+740,0,0,1,"ervice leading to deployment.
+
+Answer: 1"
+741,0,0,1,"d her fulfillment as a nurse.
+
+Answer: 1"
+742,0,0,1,"ng the most beautiful garden.
+
+Answer: 1"
+743,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+744,1,1,1,"tely eating the entire plate.
+
+Answer: 2"
+745,1,1,1,"cks coherence and motivation.
+
+Answer: 2"
+746,0,0,1,"ause him to distance himself.
+
+Answer: 1"
+747,0,0,1,"levision breaking (Middle 2).
+
+Answer: 1"
+748,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+749,1,1,1,"rent and plausible narrative.
+
+Answer: 2"
+750,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+751,0,0,1,"iant ""I regret nothing"" tone.
+
+Answer: 1"
+752,1,1,1," ending up with none to post.
+
+Answer: 2"
+753,0,0,1,"ng the ending less plausible.
+
+Answer: 1"
+754,1,1,1,"ving advice from Jamal Lewis.
+
+Answer: 2"
+755,1,1,1,"hile Middle 1 contradicts it.
+
+Answer: 2"
+756,0,0,1,"ogically leads to the ending.
+
+Answer: 1"
+757,0,-1,0,"oodnight, and went inside to have dinner"
+758,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+759,1,1,1,"ession from beginning to end.
+
+Answer: 2"
+760,0,0,1,"ve gloves would prevent pain.
+
+Answer: 1"
+761,0,0,1,"directly explains the ending.
+
+Answer: 1"
+762,0,0,1,"It doesn't connect logically.
+
+Answer: 1"
+763,1,1,1,"sitive outcome in the ending.
+
+Answer: 2"
+764,1,1,1,"plausible sequence of events.
+
+Answer: 2"
+765,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+766,1,1,1,"→ anticipation for next year.
+
+Answer: 2"
+767,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+768,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+769,1,1,1,"ing it at a fancy restaurant.
+
+Answer: 2"
+770,1,1,1,"m the experience could occur.
+
+Answer: 2"
+771,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+772,0,0,1,"b and enjoying seeing photos.
+
+Answer: 1"
+773,0,0,1,"fort described in the ending.
+
+Answer: 1"
+774,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+775,0,0,1,"happy from listening to them.
+
+Answer: 1"
+776,0,0,1,"ing, while Middle 2 does not.
+
+Answer: 1"
+777,1,1,1,"rent and plausible narrative.
+
+Answer: 2"
+778,1,1,1,"wimming, and then going home.
+
+Answer: 2"
+779,0,0,1,"story coherent and plausible.
+
+Answer: 1"
+780,1,1,1,"ative context for the ending.
+
+Answer: 2"
+781,1,1,1,"irm decision to never return.
+
+Answer: 2"
+782,1,0,0,"pite bad seats is reasonable.
+
+Answer: 1"
+783,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+784,0,0,1,"al behavior for buying shoes.
+
+Answer: 1"
+785,1,1,1,"home without buying anything.
+
+Answer: 2"
+786,1,1,1," the beginning to the ending.
+
+Answer: 2"
+787,1,1,1," immediate audience response.
+
+Answer: 2"
+788,1,1,1," eventual success of his zoo.
+
+Answer: 2"
+789,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+790,0,0,1,"plausible sequence of events.
+
+Answer: 1"
+791,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+792,1,1,1,"is more logical and coherent.
+
+Answer: 2"
+793,0,0,1,"ble connection to the ending.
+
+Answer: 1"
+794,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+795,0,0,1,"e 2 introduces a discrepancy.
+
+Answer: 1"
+796,1,1,1," to the destructive reaction.
+
+Answer: 2"
+797,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+798,1,1,1,"better than just being happy.
+
+Answer: 2"
+799,1,1,1,"to actually paying a deposit.
+
+Answer: 2"
+800,1,1,1," the strong negative outcome.
+
+Answer: 2"
+801,0,0,1," a logical and coherent flow.
+
+Answer: 1"
+802,0,0,1,"er would scan all the photos.
+
+Answer: 1"
+803,1,1,1,"n for the drop in motivation.
+
+Answer: 2"
+804,1,1,1,"r the decision in the ending.
+
+Answer: 2"
+805,0,0,1," Val is moved by Ali’s grace.
+
+Answer: 1"
+806,0,0,1,"come described in the ending.
+
+Answer: 1"
+807,1,1,1,"ion from marriage to divorce.
+
+Answer: 2"
+808,1,1,1,"needing to retrace her steps.
+
+Answer: 2"
+809,0,0,1,"e, despite her usual caution.
+
+Answer: 1"
+810,0,0,1,"en being sick and recovering.
+
+Answer: 1"
+811,0,0,1,"ject found (non-metal stick).
+
+Answer: 1"
+812,0,1,0,"ith known character dynamics.
+
+Answer: 2"
+813,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+814,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+815,0,0,1,"y consistent with the ending.
+
+Answer: 1"
+816,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+817,1,1,1,"fect described in the ending.
+
+Answer: 2"
+818,0,0,1,"sibility of returning weekly.
+
+Answer: 1"
+819,0,0,1,"ession from beginning to end.
+
+Answer: 1"
+820,1,1,1,"ight → proposal → acceptance.
+
+Answer: 2"
+821,0,0,1,"and child about the incident.
+
+Answer: 1"
+822,0,0,1,"d having one on the way home.
+
+Answer: 1"
+823,1,1,1," fear leads to discarding it.
+
+Answer: 2"
+824,0,0,1,"ection → rest and medication.
+
+Answer: 1"
+825,0,0,1,"ng, making it less plausible.
+
+Answer: 1"
+826,0,0,1,"for Will’s improved behavior.
+
+Answer: 1"
+827,1,0,0,"rent and plausible narrative.
+
+Answer: 1"
+828,1,1,1,"sitive outcome in the ending.
+
+Answer: 2"
+829,0,0,1,"urn, not swear off the place.
+
+Answer: 1"
+830,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+831,1,1,1,"the police about an incident.
+
+Answer: 2"
+832,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+833,1,1,1,"ding up with burnt chocolate.
+
+Answer: 2"
+834,0,0,1,"ess, which is less plausible.
+
+Answer: 1"
+835,0,0,1,"dle 2 contradicts the ending.
+
+Answer: 1"
+836,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+837,1,1,1,"the connection to the ending.
+
+Answer: 2"
+838,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+839,1,0,0,", Middle 1 is more plausible.
+
+Answer: 1"
+840,1,1,1,"ve for the narrator’s action.
+
+Answer: 2"
+841,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+842,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+843,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+844,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+845,0,0,1,"ood what an ultrasound shows.
+
+Answer: 1"
+846,0,0,1," and plausible narrative arc.
+
+Answer: 1"
+847,0,0,1,"must include drinking coffee.
+
+Answer: 1"
+848,1,1,1,"hile Middle 1 contradicts it.
+
+Answer: 2"
+849,0,0,1,"le to do, leading to boredom.
+
+Answer: 1"
+850,0,0,1,"eads logically to the ending.
+
+Answer: 1"
+851,1,1,1,"lief mentioned in the ending.
+
+Answer: 2"
+852,0,0,1,"reer that leads to greatness.
+
+Answer: 1"
+853,0,0,1,"e) → continued determination.
+
+Answer: 1"
+854,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+855,0,0,1,"aks the realism of the story.
+
+Answer: 1"
+856,0,0,1,"ng oneself on a small piece).
+
+Answer: 1"
+857,1,1,1,"and deciding never to return.
+
+Answer: 2"
+858,1,1,1,"sion not to purchase from it.
+
+Answer: 2"
+859,0,0,1,"dramatic decision at the end.
+
+Answer: 1"
+860,1,1,1,"rent and plausible narrative.
+
+Answer: 2"
+861,1,1,1,"rent and plausible narrative.
+
+Answer: 2"
+862,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+863,1,1,1,"tionally plausible narrative.
+
+Answer: 2"
+864,0,0,1,"at reservations are required.
+
+Answer: 1"
+865,1,1,1,"fusing food that was offered.
+
+Answer: 2"
+866,1,-1,0,"ite hating school, Middle 2 shows a more"
+867,0,0,1,"th achieving that goal later.
+
+Answer: 1"
+868,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+869,0,0,1,"s consistent with the ending.
+
+Answer: 1"
+870,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+871,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+872,0,0,1,"Vera's dream and her success.
+
+Answer: 1"
+873,1,1,1,"a coherent and plausible way.
+
+Answer: 2"
+874,0,0,1,"r hair and the final outcome.
+
+Answer: 1"
+875,1,1,1,"ession from beginning to end.
+
+Answer: 2"
+876,1,1,1,"more plausibly to the ending.
+
+Answer: 2"
+877,0,0,1,"tive sentiment in the ending.
+
+Answer: 1"
+878,0,0,1,"ion to sell it — is Middle 1.
+
+Answer: 1"
+879,1,1,1,"h factually and contextually.
+
+Answer: 2"
+880,0,0,1,"stent behavior of petting it.
+
+Answer: 1"
+881,0,0,1,"herent buildup to the ending.
+
+Answer: 1"
+882,0,0,1," the wife’s eventual dislike.
+
+Answer: 1"
+883,0,0,1,"ld that others also disliked.
+
+Answer: 1"
+884,1,1,1,"and wanting to print a photo.
+
+Answer: 2"
+885,0,0,1," that died shortly afterward.
+
+Answer: 1"
+886,0,0,1,"art, while Middle 2 does not.
+
+Answer: 1"
+887,0,0,1,"come described in the ending.
+
+Answer: 1"
+888,1,1,1,"hree-day school cancellation.
+
+Answer: 2"
+889,1,1,1,"for the ending to make sense.
+
+Answer: 2"
+890,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+891,1,1,1,"better appreciation for Bach.
+
+Answer: 2"
+892,0,0,1,"uccess as a marine biologist.
+
+Answer: 1"
+893,0,0,1,"nvolves a realistic scenario.
+
+Answer: 1"
+894,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+895,1,-1,0," a different tree in Florida, that could"
+896,0,0,1,"nce and emotional continuity.
+
+Answer: 1"
+897,1,1,1,"eads naturally to the ending.
+
+Answer: 2"
+898,0,0,1,"the resolution in the ending.
+
+Answer: 1"
+899,0,0,1,"aying catch and getting hurt.
+
+Answer: 1"
+900,1,1,1,"e 2 fits this pattern better.
+
+Answer: 2"
+901,1,1,1,"eo and winning a competition.
+
+Answer: 2"
+902,1,1,1,"elly, prompting him to leave.
+
+Answer: 2"
+903,1,0,0,"er), and the teacher said no.
+
+Answer: 1"
+904,1,1,1,"ing up eating and being full.
+
+Answer: 2"
+905,1,1,1,"more plausible than Middle 1.
+
+Answer: 2"
+906,1,1,1," more plausible and coherent.
+
+Answer: 2"
+907,1,1,1,"ched one's frugal tendencies.
+
+Answer: 2"
+908,1,1,1," making the ending plausible.
+
+Answer: 2"
+909,1,1,1,"istic cause-and-effect chain.
+
+Answer: 2"
+910,0,0,1," sleep → waking up refreshed.
+
+Answer: 1"
+911,1,1,1,"ly and uses correct language.
+
+Answer: 2"
+912,0,0,1,"a house to becoming homeless.
+
+Answer: 1"
+913,1,1,1,"n for the fans' anticipation.
+
+Answer: 2"
+914,0,0,1,"with employees supports that.
+
+Answer: 1"
+915,0,0,1,"the lessons were kept secret.
+
+Answer: 1"
+916,1,1,1,"s a strong, plausible reason.
+
+Answer: 2"
+917,0,0,1,"ctually achieving that dream.
+
+Answer: 1"
+918,0,0,1,"and her eventual publication.
+
+Answer: 1"
+919,1,1,1,"ession from beginning to end.
+
+Answer: 2"
+920,0,0,1,"stent with the emotional arc.
+
+Answer: 1"
+921,0,-1,0," extra beyond the initial outing.
+
+Given"
+922,0,0,1,"ed), while Middle 2 does not.
+
+Answer: 1"
+923,1,1,1,"his girlfriend like a trophy.
+
+Answer: 2"
+924,1,1,1,"kes the story more plausible.
+
+Answer: 2"
+925,1,1,1,"p eating chicken and waffles.
+
+Answer: 2"
+926,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+927,0,0,1,"nning to the positive ending.
+
+Answer: 1"
+928,1,1,1,", yet still ending with none.
+
+Answer: 2"
+929,0,1,0,", Middle 2 is more plausible.
+
+Answer: 2"
+930,0,0,1,"g a snowman, not avoiding it.
+
+Answer: 1"
+931,1,1,1,"een the beginning and ending.
+
+Answer: 2"
+932,0,0,1,"nts to catch them in the act.
+
+Answer: 1"
+933,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+934,1,1,1,"l for receiving an Elmo doll.
+
+Answer: 2"
+935,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+936,0,0,1,", there's no need to hide it.
+
+Answer: 1"
+937,1,1,1,"erent reason for the sadness.
+
+Answer: 2"
+938,0,0,1,"to work, and had a great day.
+
+Answer: 1"
+939,0,0,1,"the beginning and the ending.
+
+Answer: 1"
+940,1,1,1,"more plausibly to the ending.
+
+Answer: 2"
+941,0,0,1,"xplanation for her screaming.
+
+Answer: 1"
+942,0,1,0,", Middle 2 is more plausible.
+
+Answer: 2"
+943,0,0,1,"d out she *isn't* a feminist.
+
+Answer: 1"
+944,0,0,1,"aving to kill and prepare it.
+
+Answer: 1"
+945,0,0,1,"kes the story less plausible.
+
+Answer: 1"
+946,1,1,1,"nected progression of events.
+
+Answer: 2"
+947,1,1,1,"d a facility and got samples.
+
+Answer: 2"
+948,1,0,0,"out to be a terrible mistake.
+
+Answer: 1"
+949,1,1,1," the beginning to the ending.
+
+Answer: 2"
+950,1,1,1,"n for selling the collection.
+
+Answer: 2"
+951,0,0,1,"tion described in the ending.
+
+Answer: 1"
+952,0,0,1,"nguage and medical logistics.
+
+Answer: 1"
+953,1,1,1," for why the person got sick.
+
+Answer: 2"
+954,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+955,0,0,1,"d's most famous skateboarder.
+
+Answer: 1"
+956,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+957,0,0,1,"a strong, common risk factor.
+
+Answer: 1"
+958,0,0,1,"ausible, even if not perfect.
+
+Answer: 1"
+959,1,1,1,"come described in the ending.
+
+Answer: 2"
+960,0,0,1,"d lead to a lifelong passion.
+
+Answer: 1"
+961,1,1,1," for the story to make sense.
+
+Answer: 2"
+962,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+963,0,0,1," transforming her experience.
+
+Answer: 1"
+964,0,0,1,"n for her immediate purchase.
+
+Answer: 1"
+965,0,0,1,"come described in the ending.
+
+Answer: 1"
+966,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+967,0,-1,0,. This suggests Dan chose a non-trad游戏副本
+968,0,0,1,"dance and lifelong inability.
+
+Answer: 1"
+969,0,1,0,"nd plausible narrative chain.
+
+Answer: 2"
+970,0,0,1," puppy instead of a dinosaur.
+
+Answer: 1"
+971,0,0,1,"ine or emotional arc as well.
+
+Answer: 1"
+972,1,1,1," the beginning to the ending.
+
+Answer: 2"
+973,0,0,1,"s and enjoying the old music.
+
+Answer: 1"
+974,0,0,1,"raction) for the interaction.
+
+Answer: 1"
+975,1,1,1,"e plausible given the ending.
+
+Answer: 2"
+976,1,1,1,"al and plausible progression.
+
+Answer: 2"
+977,0,0,1,"tinue performing excellently.
+
+Answer: 1"
+978,0,0,1,", Middle 1 is more plausible.
+
+Answer: 1"
+979,0,0,1,"ess and his eventual success.
+
+Answer: 1"
+980,0,0,1,"d ice cream usually does not.
+
+Answer: 1"
+981,1,1,1,"ding to keep them that color.
+
+Answer: 2"
+982,1,1,1,"ion that it's not a big loss.
+
+Answer: 2"
+983,0,0,1," to apologize and fix things.
+
+Answer: 1"
+984,1,1,1," fear was less than expected.
+
+Answer: 2"
+985,1,1,1,"the beginning and the ending.
+
+Answer: 2"
+986,1,1,1,", Middle 2 is more plausible.
+
+Answer: 2"
+987,1,1,1,"articipation and her elation.
+
+Answer: 2"
+988,1,0,0," we can default to the first.
+
+Answer: 1"
+989,1,1,1,"ble and consistent narrative.
+
+Answer: 2"
+990,0,0,1,"nding, while Middle 2 is not.
+
+Answer: 1"
+991,0,0,1," illness and increased worry.
+
+Answer: 1"
+992,0,0,1,"ambiguous phrase ""the whole.""
+
+Answer: 1"
+993,0,0,1,"ion from fishing to swimming.
+
+Answer: 1"
+994,0,0,1,"o Katie’s greatest happiness.
+
+Answer: 1"
+995,1,1,1,"nally coherent narrative arc.
+
+Answer: 2"
+996,1,1,1,"e and actually receiving one.
+
+Answer: 2"
+997,0,0,1,"ore consistent and plausible.
+
+Answer: 1"
+998,1,1,1,"ision to go by Zoe sometimes.
+
+Answer: 2"
+999,1,1,1," the beginning to the ending.
+
+Answer: 2"
