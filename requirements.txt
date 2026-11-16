@@ -4,4 +4,7 @@ transformers>=4.44
 datasets>=2.19
 huggingface_hub>=0.28
 wandb>=0.17
+matplotlib>=3.7
+pandas>=2.0
+jupyter
 pytest
