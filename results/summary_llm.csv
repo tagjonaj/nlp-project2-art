@@ -7,6 +7,6 @@ llm-gpt-oss-120b-zero,openai/gpt-oss-120b,deepinfra,zero,0,False,,2048,"llm,prom
 llm-gpt-oss-120b-zero-n200,openai/gpt-oss-120b,deepinfra,zero,0,False,,2048,"llm,pilot",,,,200,0.98,0,,,,31150,25718
 llm-qwen3-235b-cot,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,cot,0,False,,1024,"llm,prompts",,,,1000,0.958,10,,,,135812,300965
 llm-qwen3-235b-few4,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,few,4,False,,8,"llm,prompts",,,,1000,0.958,0,,,,431812,2000
-llm-qwen3-235b-few8,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,few,8,False,,8,"llm,prompts",,,,1000,0.961,2,,,,739812,2012
+llm-qwen3-235b-few8,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,few,8,False,,8,"llm,final",1000,0.954,1,1000,0.961,2,1532,0.8727,0,2612676,7082
 llm-qwen3-235b-zero,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,zero,0,False,,8,"llm,prompts",,,,1000,0.953,0,,,,107812,2000
 llm-qwen3-235b-zero-swap,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,zero,0,True,,8,"llm,prompts",,,,1000,0.957,0,,,,107812,2000

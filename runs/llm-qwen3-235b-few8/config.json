@@ -7,7 +7,7 @@
   "max_tokens": 8,
   "reasoning_effort": "",
   "temperature": 0.0,
-  "splits": "validation",
+  "splits": "train,validation,test",
   "limit": 0,
   "train_limit": 1000,
   "seed": 42,
@@ -15,6 +15,6 @@
   "wandb_project": "nlp-project2-art",
   "wandb_mode": "online",
   "run_name": "llm-qwen3-235b-few8",
-  "tags": "llm,prompts",
+  "tags": "llm,final",
   "output_dir": "runs"
 }

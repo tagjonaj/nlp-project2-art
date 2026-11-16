@@ -11,6 +11,24 @@
     15482,
     6949
   ],
+  "train": {
+    "n": 1000,
+    "acc": 0.954,
+    "invalid": 1,
+    "cut_off": 0,
+    "confusion": [
+      [
+        469,
+        27
+      ],
+      [
+        18,
+        485
+      ]
+    ],
+    "prompt_tokens": 739622,
+    "completion_tokens": 2006
+  },
   "validation": {
     "n": 1000,
     "acc": 0.961,
@@ -29,5 +47,23 @@
     "prompt_tokens": 739812,
     "completion_tokens": 2012
   },
-  "seconds": 50.12291622161865
+  "test": {
+    "n": 1532,
+    "acc": 0.8727154046997389,
+    "invalid": 0,
+    "cut_off": 0,
+    "confusion": [
+      [
+        670,
+        111
+      ],
+      [
+        84,
+        667
+      ]
+    ],
+    "prompt_tokens": 1133242,
+    "completion_tokens": 3064
+  },
+  "seconds": 166.69548344612122
 }
