@@ -1,0 +1,20 @@
+{
+  "model": "meta-llama/Llama-3.3-70B-Instruct",
+  "provider": "novita",
+  "prompt": "zero",
+  "shots": 4,
+  "swap": false,
+  "max_tokens": 8,
+  "reasoning_effort": "",
+  "temperature": 0.0,
+  "splits": "validation",
+  "limit": 200,
+  "train_limit": 1000,
+  "seed": 42,
+  "workers": 8,
+  "wandb_project": "nlp-project2-art",
+  "wandb_mode": "online",
+  "run_name": "",
+  "tags": "llm,pilot",
+  "output_dir": "runs"
+}

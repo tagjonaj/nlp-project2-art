@@ -1,0 +1,23 @@
+{
+  "run_name": "llm-Llama-3.3-70B-Instruct-zero-n200",
+  "group": "llm-Llama-3.3-70B-Instruct-zero-n200",
+  "shot_indices": [],
+  "validation": {
+    "n": 200,
+    "acc": 0.955,
+    "invalid": 0,
+    "confusion": [
+      [
+        110,
+        4
+      ],
+      [
+        5,
+        81
+      ]
+    ],
+    "prompt_tokens": 26034,
+    "completion_tokens": 400
+  },
+  "seconds": 16.116451025009155
+}

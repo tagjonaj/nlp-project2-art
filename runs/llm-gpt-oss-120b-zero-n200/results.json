@@ -1,0 +1,23 @@
+{
+  "run_name": "llm-gpt-oss-120b-zero-n200",
+  "group": "llm-gpt-oss-120b-zero-n200",
+  "shot_indices": [],
+  "validation": {
+    "n": 200,
+    "acc": 0.98,
+    "invalid": 0,
+    "confusion": [
+      [
+        111,
+        3
+      ],
+      [
+        1,
+        85
+      ]
+    ],
+    "prompt_tokens": 31150,
+    "completion_tokens": 25718
+  },
+  "seconds": 250.8437111377716
+}

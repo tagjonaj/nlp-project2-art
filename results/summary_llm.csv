@@ -1,0 +1,6 @@
+run,model,provider,prompt,shots,swap,reasoning_effort,max_tokens,tags,train_n,train_acc,train_invalid,val_n,val_acc,val_invalid,test_n,test_acc,test_invalid,prompt_tokens,completion_tokens
+llm-DeepSeek-V4-Pro-zero-n200,deepseek-ai/DeepSeek-V4-Pro,deepinfra,zero,0,False,,2048,"llm,pilot",,,,200,0.96,0,,,,20079,401
+llm-GLM-5.2-zero-n200,zai-org/GLM-5.2,deepinfra,zero,0,False,,2048,"llm,pilot",,,,200,0.985,1,,,,21641,29528
+llm-Llama-3.3-70B-Instruct-zero-n200,meta-llama/Llama-3.3-70B-Instruct,novita,zero,0,False,,8,"llm,pilot",,,,200,0.955,0,,,,26034,400
+llm-Qwen3-235B-A22B-Instruct-2507-zero-n200,Qwen/Qwen3-235B-A22B-Instruct-2507,deepinfra,zero,0,False,,8,"llm,pilot",,,,200,0.98,0,,,,21650,400
+llm-gpt-oss-120b-zero-n200,openai/gpt-oss-120b,deepinfra,zero,0,False,,2048,"llm,pilot",,,,200,0.98,0,,,,31150,25718

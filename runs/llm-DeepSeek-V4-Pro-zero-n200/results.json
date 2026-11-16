@@ -1,0 +1,23 @@
+{
+  "run_name": "llm-DeepSeek-V4-Pro-zero-n200",
+  "group": "llm-DeepSeek-V4-Pro-zero-n200",
+  "shot_indices": [],
+  "validation": {
+    "n": 200,
+    "acc": 0.96,
+    "invalid": 0,
+    "confusion": [
+      [
+        108,
+        6
+      ],
+      [
+        2,
+        84
+      ]
+    ],
+    "prompt_tokens": 20079,
+    "completion_tokens": 401
+  },
+  "seconds": 26.509706020355225
+}
