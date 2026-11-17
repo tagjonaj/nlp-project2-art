@@ -96,10 +96,18 @@ def test_saved_predictions_match_results(run):
         assert matrix == result["confusion"]
 
 
+def test_ablation_runs():
+    assert analysis.ablation_runs("Final configuration", analysis.M1) == analysis.MODELS[analysis.M1]
+    assert analysis.ablation_runs("Final configuration", analysis.M2) == analysis.MODELS[analysis.M2]
+    assert analysis.ablation_runs("Hypothesis only", analysis.M2) == [f"pre-lr1e-05-honly-s{seed}" for seed in (42, 1, 2, 3)]
+    assert analysis.ablation_runs("Segment order: O1 O2, then hypothesis", analysis.M1) == ["rand-lr2e-05-o1o2h-ep30-s42"]
+    assert analysis.ablation_runs("10 instead of 5 epochs", analysis.M1) == []
+
+
 def test_every_listed_run_exists():
     listed = FINAL_RUNS + analysis.PILOT_RUNS + analysis.PROMPT_RUNS
     listed += [run for runs in analysis.LR_RUNS.values() for run in runs]
-    listed += [run for runs in analysis.ABLATIONS.values() for run in runs if run]
+    listed += [run for variant in analysis.ABLATIONS for model in (analysis.M1, analysis.M2) for run in analysis.ablation_runs(variant, model)]
     if not analysis.RUNS.exists():
         pytest.skip("runs/ is not available")
     missing = [run for run in listed if not (analysis.RUNS / run / "results.json").exists()]

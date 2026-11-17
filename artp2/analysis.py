@@ -33,15 +33,16 @@ LR_RUNS = {  # learning rate search, seed 42
     M2: ["pre-lr1e-05-s42", "pre-lr2e-05-s42", "pre-lr3e-05-s42", "pre-lr5e-05-s42"],
     M1: ["rand-lr1e-05-ep30-s42", "rand-lr2e-05-ep30-s42", "rand-lr5e-05-ep30-s42", "rand-lr0.0001-ep30-s42"],
 }
-ABLATIONS = {  # variant -> seed-42 run of model 1 and of model 2 (None = not run)
-    "Reference run": ("rand-lr2e-05-ep30-s42", "pre-lr1e-05-s42"),
-    "Segment order: O1 O2, then hypothesis": ("rand-lr2e-05-o1o2h-ep30-s42", "pre-lr1e-05-o1o2h-s42"),
-    "Mean pooling instead of the <s> vector": ("rand-lr2e-05-mean-ep30-s42", "pre-lr1e-05-mean-s42"),
-    "Hypothesis only": ("rand-lr2e-05-honly-ep30-s42", "pre-lr1e-05-honly-s42"),
-    "4,000 training examples": ("rand-lr2e-05-ep30-n4000-s42", "pre-lr1e-05-n4000-s42"),
-    "1,000 training examples": ("rand-lr2e-05-ep30-n1000-s42", "pre-lr1e-05-n1000-s42"),
-    "Classifier learning rate 1e-3": (None, "pre-lr1e-05-clr0.001-s42"),
-    "10 instead of 5 epochs": (None, "pre-lr1e-05-ep10-s42"),
+ONE = (42,)
+ABLATIONS = {  # variant -> for model 1 and for model 2: (name of the runs without the seed, seeds); None = not run
+    "Final configuration": (("rand-lr2e-05-ep30", SEEDS), ("pre-lr1e-05", SEEDS)),
+    "Hypothesis only": (("rand-lr2e-05-honly-ep30", SEEDS), ("pre-lr1e-05-honly", SEEDS)),
+    "4,000 training examples": (("rand-lr2e-05-ep30-n4000", SEEDS), ("pre-lr1e-05-n4000", SEEDS)),
+    "1,000 training examples": (("rand-lr2e-05-ep30-n1000", SEEDS), ("pre-lr1e-05-n1000", SEEDS)),
+    "Segment order: O1 O2, then hypothesis": (("rand-lr2e-05-o1o2h-ep30", ONE), ("pre-lr1e-05-o1o2h", SEEDS)),
+    "Mean pooling instead of the <s> vector": (("rand-lr2e-05-mean-ep30", ONE), ("pre-lr1e-05-mean", ONE)),
+    "Classifier learning rate 1e-3": (None, ("pre-lr1e-05-clr0.001", ONE)),
+    "10 instead of 5 epochs": (None, ("pre-lr1e-05-ep10", ONE)),
 }
 PILOT_RUNS = ["llm-Llama-3.3-70B-Instruct-zero-n200", "llm-DeepSeek-V4-Pro-zero-n200", "llm-gpt-oss-120b-zero-n200",
               "llm-Qwen3-235B-A22B-Instruct-2507-zero-n200", "llm-GLM-5.2-zero-n200"]
@@ -156,15 +157,29 @@ def lr_table() -> list[dict]:
     return rows
 
 
+def ablation_runs(variant: str, model: str) -> list[str]:
+    """The runs of an ablation for one model, one per seed (empty if the variant was not run for this model)."""
+    entry = ABLATIONS[variant][(M1, M2).index(model)]
+    return [f"{entry[0]}-s{seed}" for seed in entry[1]] if entry else []
+
+
 def ablation_table() -> list[dict]:
-    """Validation and test accuracy of every ablation (seed 42). Each variant changes one factor."""
+    """Accuracy of every ablation: mean and standard deviation over its seeds. Each variant changes one factor.
+
+    The last column is the difference to the final configuration of the same model on validation.
+    """
     rows = []
-    for variant, runs in ABLATIONS.items():
-        row = {"variant": variant}
-        for name, run in zip((M1, M2), runs):
+    for model in (M1, M2):
+        reference, _ = mean_sd(MODELS[model], "validation")
+        for variant in ABLATIONS:
+            runs = ablation_runs(variant, model)
+            if not runs:
+                continue
+            row = {"model": model, "variant": variant, "seeds": len(runs)}
             for split in ("validation", "test"):
-                row[f"{name} · {split}"] = 100 * results(run)[split]["acc"] if run else float("nan")
-        rows.append(row)
+                row[split], row[f"{split} sd"] = mean_sd(runs, split)
+            row["validation - final"] = round(row["validation"] - reference, 2) + 0.0  # + 0.0 turns -0.0 into 0.0
+            rows.append(row)
     return rows
 
 
@@ -395,18 +410,17 @@ def plot_curves():
 
 
 def plot_ablations():
-    """Validation accuracy without the observations and with fewer training examples (seed 42)."""
+    """Validation accuracy without the observations and with fewer training examples (mean and sd of 4 seeds)."""
     import matplotlib.pyplot as plt
 
-    def value(run: str) -> float:
-        return 100 * results(run)["validation"]["acc"]
-
     figure, (left, right) = plt.subplots(1, 2, figsize=(7.5, 3.3), layout="constrained", sharey=True)
-    sizes = ("1,000 training examples", "4,000 training examples", "Reference run")
-    for offset, position, name in zip((-0.1, 0.1), (0, 1), (M1, M2)):
-        _columns(left, [offset, 1 + offset], [value(ABLATIONS[key][position]) for key in ("Reference run", "Hypothesis only")],
-                 COLORS[name], label=name, width=0.1)
-        _columns(right, [x + offset for x in range(3)], [value(ABLATIONS[key][position]) for key in sizes], COLORS[name])
+    inputs = ("Final configuration", "Hypothesis only")
+    sizes = ("1,000 training examples", "4,000 training examples", "Final configuration")
+    for offset, name in zip((-0.1, 0.1), (M1, M2)):
+        means, sds = zip(*(mean_sd(ablation_runs(variant, name), "validation") for variant in inputs))
+        _columns(left, [offset, 1 + offset], means, COLORS[name], errors=sds, label=name, width=0.1)
+        means, sds = zip(*(mean_sd(ablation_runs(variant, name), "validation") for variant in sizes))
+        _columns(right, [x + offset for x in range(3)], means, COLORS[name], errors=sds)
     left.set_xticks(range(2), ["full input", "hypothesis only"])
     left.set_xlim(-0.5, 1.5)
     right.set_xticks(range(3), ["1,000", "4,000", "16,801"])
